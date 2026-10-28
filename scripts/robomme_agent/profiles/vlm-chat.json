@@ -1,0 +1,18 @@
+{
+  "protocol": "openai-chat",
+  "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+  "model": "replace-with-served-backbone-name",
+  "revision": "replace-with-checkpoint-revision-and-serving-backend",
+  "api_key_env": "JEV_API_KEY",
+  "timeout_seconds": 8,
+  "max_calls": 20,
+  "max_total_seconds": 30,
+  "questions": {
+    "contact_readiness": {
+      "purpose": "stage_warning",
+      "prompt": "Is the visible gripper approaching contact or alignment with a target, requiring careful review? Do not infer actual contact. Use uncertain when occluded or ambiguous.",
+      "labels": ["approaching_contact", "clearly_separated", "uncertain"],
+      "review_labels": ["approaching_contact", "uncertain"]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "protocol": "omnijev-mso1-v1",
+  "endpoint": "http://127.0.0.1:18704/v1/decide",
+  "model": "OmniJev-4B-v1.1/MSO1",
+  "revision": "GENERATED_BY_SERVE_OMNIJEV",
+  "require_server_identity": true,
+  "timeout_seconds": 5,
+  "max_calls": 300,
+  "max_total_seconds": 180,
+  "input_view": "current-front-wrist-512x280",
+  "probability_policy": {"min_probability": 0.6, "min_margin": 0.1, "max_abstain": 0.2},
+  "empty_grasp_threshold_m": null,
+  "questions": {
+    "contact_readiness": {
+      "purpose": "stage_warning",
+      "prompt": "In these current front and wrist views, is the gripper approaching the visible target's contact/alignment window? This is a warning to review, not proof of contact.",
+      "labels": ["approaching_contact", "clearly_separated", "uncertain"],
+      "review_labels": ["approaching_contact", "uncertain"]
+    },
+    "lift_fact": {
+      "purpose": "visual_fact",
+      "prompt": "Is the target object visibly held between the gripper fingers and lifted clear of the table in these current views?",
+      "labels": ["held_above_table", "not_yet_lifted", "uncertain"],
+      "review_labels": ["held_above_table", "uncertain"]
+    }
+  }
+}

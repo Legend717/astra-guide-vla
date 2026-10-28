@@ -1,0 +1,151 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-a5b1609620c43775dd6f20ba",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move backward",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move backward\", \"segments\": 41, \"episodes\": 40, \"min\": 18, \"p10\": 32.0, \"p25\": 32.0, \"median\": 32.0, \"p90\": 48.0, \"max\": 80, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move backward",
+        "recommended_steps": 30
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    },
+    {
+      "id": "duration-f70ae1c46538c801163853a7",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move backward-left",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move backward-left\", \"segments\": 35, \"episodes\": 33, \"min\": 20, \"p10\": 32.0, \"p25\": 32.0, \"median\": 35.0, \"p90\": 48.0, \"max\": 80, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move backward-left",
+        "recommended_steps": 30
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    },
+    {
+      "id": "duration-8fa377327bad92be665a6080",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move backward-right",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move backward-right\", \"segments\": 36, \"episodes\": 34, \"min\": 22, \"p10\": 25.5, \"p25\": 31.75, \"median\": 33.0, \"p90\": 51.5, \"max\": 68, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move backward-right",
+        "recommended_steps": 30
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    },
+    {
+      "id": "duration-3382088291f110d08fb6a6b3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move forward",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move forward\", \"segments\": 32, \"episodes\": 30, \"min\": 20, \"p10\": 25.2, \"p25\": 32.0, \"median\": 41.0, \"p90\": 59.900000000000006, \"max\": 128, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move forward",
+        "recommended_steps": 30
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    },
+    {
+      "id": "duration-f61cc777ace2f41b9f31392b",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move forward-left",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move forward-left\", \"segments\": 33, \"episodes\": 31, \"min\": 20, \"p10\": 26.6, \"p25\": 32.0, \"median\": 32.0, \"p90\": 48.0, \"max\": 57, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move forward-left",
+        "recommended_steps": 30
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    },
+    {
+      "id": "duration-002febcfc292be352dba4a58",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move forward-right",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move forward-right\", \"segments\": 27, \"episodes\": 25, \"min\": 19, \"p10\": 30.8, \"p25\": 32.0, \"median\": 34.0, \"p90\": 48.0, \"max\": 68, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move forward-right",
+        "recommended_steps": 30
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    },
+    {
+      "id": "duration-81927c062ce476225403c168",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move left",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move left\", \"segments\": 33, \"episodes\": 30, \"min\": 16, \"p10\": 22.0, \"p25\": 26.0, \"median\": 32.0, \"p90\": 47.6, \"max\": 66, \"recommended_steps\": null, \"close_review\": true}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move left",
+        "close_review": true
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    },
+    {
+      "id": "duration-4fbd047fcc18247826aaab54",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move right",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PatternLock\", \"subgoal\": \"move right\", \"segments\": 41, \"episodes\": 37, \"min\": 16, \"p10\": 21.0, \"p25\": 27.0, \"median\": 32.0, \"p90\": 48.0, \"max\": 64, \"recommended_steps\": null, \"close_review\": true}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move right",
+        "close_review": true
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PatternLock"
+      }
+    }
+  ],
+  "commits": []
+}

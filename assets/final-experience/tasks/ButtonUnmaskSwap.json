@@ -1,0 +1,216 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-57d62a7c3c69712da15b5af8",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"pick up the container that hides the blue cube\", \"segments\": 44, \"episodes\": 44, \"min\": 84, \"p10\": 87.0, \"p25\": 95.0, \"median\": 103.0, \"p90\": 113.4, \"max\": 182, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the blue cube",
+        "recommended_steps": 90
+      }
+    },
+    {
+      "id": "duration-6e9e30946a6b20bf0872d22e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"pick up the container that hides the green cube\", \"segments\": 50, \"episodes\": 50, \"min\": 82, \"p10\": 95.3, \"p25\": 98.0, \"median\": 103.0, \"p90\": 119.2, \"max\": 198, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the green cube",
+        "recommended_steps": 90
+      }
+    },
+    {
+      "id": "duration-bb81dcddb179ded19121f12e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"pick up the container that hides the red cube\", \"segments\": 62, \"episodes\": 62, \"min\": 82, \"p10\": 91.2, \"p25\": 97.25, \"median\": 105.0, \"p90\": 117.9, \"max\": 178, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the red cube",
+        "recommended_steps": 90
+      }
+    },
+    {
+      "id": "duration-4aacd94d6ec606e64b2bb3d0",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the first button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"press the first button\", \"segments\": 100, \"episodes\": 100, \"min\": 108, \"p10\": 109.0, \"p25\": 110.0, \"median\": 114.0, \"p90\": 119.0, \"max\": 122, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the first button",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-64325482c255ff07e9a92370",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the second button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"press the second button\", \"segments\": 100, \"episodes\": 100, \"min\": 86, \"p10\": 90.0, \"p25\": 92.0, \"median\": 94.0, \"p90\": 99.0, \"max\": 103, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the second button",
+        "recommended_steps": 90
+      }
+    },
+    {
+      "id": "duration-cf0aa6bc6720b5c00a0d767d",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put down the container",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"put down the container\", \"segments\": 56, \"episodes\": 56, \"min\": 41, \"p10\": 41.0, \"p25\": 41.0, \"median\": 48.0, \"p90\": 51.0, \"max\": 52, \"recommended_steps\": 40, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put down the container",
+        "recommended_steps": 40
+      }
+    },
+    {
+      "claim": "After an initial full-phase pickup budget reached an open-hand approach, a further70-control authorization allowed sustained ungrasped retreat rather than descent. Prefer a30-control reassessment budget at an already-near-target but unverified approach, or one reviewed prefix for a known grasp recovery. This is conditional budget advice, not a universal duration or hard trust limit.",
+      "conditions": "ButtonUnmaskSwap container pickup when the current wrist view shows an open hand near the target but grasp/descent is not yet established, especially after a prior full-phase-sized authorization. In this run drift was clearly accumulating by534,20 controls after authorization514, but the exact earliest error frame is unresolved. A later bounded alignment plus reviewed VLA grasp/lift ended in official success; shorter-budget superiority was not experimentally tested. Do not reuse target coordinates, color locations or world-axis direction from this episode.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        514,
+        524,
+        534,
+        544,
+        584,
+        622,
+        638,
+        662,
+        678,
+        691
+      ],
+      "phase": "near-target pickup and grasp recovery",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the green cube",
+        "recommended_steps": 30,
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "buttonunmaskswap-002"
+    },
+    {
+      "claim": "A90-control container-pickup authorization with a before-command gripper guard returned after80 controls before closing, allowing visual rejection of an approach to the wrong cover. For an initially open-hand full approach, retain the duration-prior-sized budget only with a before-close identity review when target adherence is uncertain; the guard does not inspect identity and is not a collision guarantee.",
+      "conditions": "ButtonUnmaskSwap blue-container pickup after reconstructing the current coverage/swap history and reviewing the initial candidate. Sparse254–334 and dense299–311 show wrong-side approach bias by299,45 controls after authorization254; wrong-cover approach is clear at334,80 controls after authorization. Exact earliest deviation is unresolved. A bounded transfer and subsequent VLA grasp/lift ended in official success. This single episode does not prove90 unguarded controls safe, the intervention necessary, or a shorter budget superior. Base remaining budgets on current progress; do not reuse color locations, coordinates, or world directions.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        254,
+        299,
+        304,
+        311,
+        322,
+        334,
+        358,
+        388,
+        404,
+        420
+      ],
+      "phase": "pickup approach and before-close identity verification",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the blue cube",
+        "recommended_steps": 90,
+        "close_review": true,
+        "guards": [
+          {
+            "kind": "gripper_change",
+            "when": "before_command"
+          }
+        ],
+        "evidence_count": 1
+      },
+      "status": "active",
+      "id": "buttonunmaskswap-003"
+    },
+    {
+      "claim": "When switching from the second button to green-container pickup while the hand remains over the old button, do not treat an initially safe retract as sufficient evidence for a full approach budget. Review one candidate prefix, at most16 controls, and verify lateral transfer before authorizing ordinary pickup continuation. A measured gripper-opening guard cannot detect a repeated closed-hand button descent.",
+      "conditions": "ButtonUnmaskSwap second-button→green-pickup transition with the hand still over the previous button. In this episode a90-control authorization from210 with after-measured gripper-change guard ran80 controls to290; sparse210–290 and dense221–233 showed renewed old-button descent clearly228,18 controls after authorization, with exact onset uncertain around227–228. Later sampled244/255 showed old-position contact before natural withdrawal. The long review interval permitted an unnecessary repeated-target cycle; shorter-prefix superiority was not tested and16 is review advice, not a proven safe bound. Keep ordinary transferred approach and near-cover grasp recovery separate. This extends applicability beyond entry1f870's first-to-second-button phase without replacing that entry or a4d's near-target recovery advice. Do not reuse coordinates or world directions.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        210,
+        221,
+        226,
+        227,
+        228,
+        232,
+        244,
+        255,
+        278,
+        290,
+        800
+      ],
+      "phase": "second-button-to-green-pickup transition",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the green cube",
+        "recommended_steps": 10,
+        "max_trust_steps": 16,
+        "close_review": true,
+        "first_risk_frame": 228,
+        "risk_offset_steps": 18,
+        "evidence_count": 1
+      },
+      "status": "active",
+      "id": "buttonunmaskswap-007"
+    },
+    {
+      "claim": "In the first-to-second-button transition, neither a safe-looking retract nor a completed finite high lateral transfer is sufficient evidence for a long VLA authorization. Review one fresh candidate prefix (at most16 controls) when resuming VLA after old-target persistence, and verify sustained adherence to the new button before extending the interval. This revises the earlier transition advice to include post-transfer recovery, not only a hand still over the old button.",
+      "conditions": "ButtonUnmaskSwap second-button phase after observed old-target persistence. Earlier entry1f870 documented renewed old-button descent19 controls into a90-control authorization. In the present episode, a finite transfer142–178 moved the hand to the second-button side, but the next60-control authorization178–238 returned it toward the previous button. Sparse178–238 and dense195–207 establish clear return drift by203,25 controls after authorization; earliest onset remains uncertain around198–201. The long interval allowed substantial drift before review. One-prefix review is advisory and was not experimentally proved safe or superior. An episode-grounded forbidden-direction guard may screen lateral return if the relevant world axis is established; gripper opening alone cannot screen it. Keep ordinary target-adherent approach separate. Terminal failure493 does not establish this drift as its cause, and visual button depression does not establish registration. Do not reuse coordinates or world-axis directions.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        142,
+        178,
+        195,
+        198,
+        201,
+        203,
+        207,
+        238,
+        290,
+        306,
+        493
+      ],
+      "phase": "first-to-second-button transition and VLA resumption after transfer recovery",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "press the second button",
+        "recommended_steps": 10,
+        "max_trust_steps": 16,
+        "close_review": true,
+        "first_risk_frame": 203,
+        "risk_offset_steps": 25,
+        "evidence_count": 2
+      },
+      "status": "active",
+      "id": "buttonunmaskswap-008"
+    }
+  ],
+  "commits": []
+}

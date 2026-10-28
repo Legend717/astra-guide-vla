@@ -1,0 +1,63 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-f85fc211d9e45fe6a620f8f3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoPlaceButton\", \"subgoal\": \"pick up the cube\", \"segments\": 100, \"episodes\": 100, \"min\": 112, \"p10\": 113.0, \"p25\": 113.0, \"median\": 114.0, \"p90\": 120.0, \"max\": 208, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the cube",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-9c2b1f7f207cba50aa8b6ebe",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the cube onto the correct target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoPlaceButton\", \"subgoal\": \"place the cube onto the correct target\", \"segments\": 100, \"episodes\": 100, \"min\": 75, \"p10\": 79.0, \"p25\": 81.0, \"median\": 85.0, \"p90\": 96.10000000000001, \"max\": 103, \"recommended_steps\": 80, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the cube onto the correct target",
+        "recommended_steps": 80
+      }
+    },
+    {
+      "claim": "Select the remembered target using the CURRENT official temporal query, not a fixed before-press rule. VideoPlaceButton can request the first cube placement AFTER the button press; in that variant, track the first subsequent released/stable placement rather than the ring occupied during the press. Preserve the selected ring's identity through the remaining demonstration. Retain the prior entry's late-permutation warning: visually identical rings can be shuffled and end in an apparently unchanged arrangement, so separately sample the tail and densely resolve any observed motion before grounding the final target.",
+      "conditions": "Earlier late-shuffle observations remain applicable, but remembering the ring immediately BEFORE pressing applies only to a matching official query. Current reviewed RGB showed distinct before- and after-press placements, and official success confirmed the after-press selection. Current tail samples showed no shuffle; they do not independently revalidate or disprove the earlier shuffle evidence. Re-establish event order, selected identity and final coordinates each episode; do not transfer target positions. This is demonstration interpretation advice, not a reason to shorten ordinary pickup/transit budgets.",
+      "confidence": "high",
+      "kind": "observation",
+      "frames": [
+        200,
+        237,
+        275,
+        283,
+        293,
+        493,
+        501,
+        507,
+        518,
+        529,
+        660,
+        700,
+        741,
+        781,
+        801,
+        812,
+        1019
+      ],
+      "phase": "demonstration_identity_tracking",
+      "applicability": "common",
+      "id": "videoplacebutton-001"
+    }
+  ],
+  "commits": []
+}

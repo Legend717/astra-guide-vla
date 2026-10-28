@@ -1,0 +1,183 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-cadf8a5b423c3bc2e8c2ec00",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "insert the peg from the left side",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"insert the peg from the left side\", \"segments\": 47, \"episodes\": 47, \"min\": 92, \"p10\": 97.8, \"p25\": 109.5, \"median\": 118.0, \"p90\": 128.6, \"max\": 139, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "insert the peg from the left side",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-850b4497eae0eb4a40eaf4ef",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "insert the peg from the right side",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"insert the peg from the right side\", \"segments\": 53, \"episodes\": 53, \"min\": 92, \"p10\": 100.0, \"p25\": 111.0, \"median\": 118.0, \"p90\": 149.40000000000003, \"max\": 167, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "insert the peg from the right side",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-df35334062f02ea9d233cc7d",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the peg by grasping the far end",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"pick up the peg by grasping the far end\", \"segments\": 54, \"episodes\": 54, \"min\": 104, \"p10\": 110.3, \"p25\": 113.25, \"median\": 119.0, \"p90\": 126.7, \"max\": 135, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the peg by grasping the far end",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-fa7233df1a7a2bffd3ed14d3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the peg by grasping the near end",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"pick up the peg by grasping the near end\", \"segments\": 46, \"episodes\": 46, \"min\": 106, \"p10\": 107.5, \"p25\": 113.25, \"median\": 120.0, \"p90\": 131.5, \"max\": 143, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the peg by grasping the near end",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "claim": "For right-side insertion with this checkpoint, use an initial30-control review budget, capped at32, before trusting descent/contact. In this episode wrong-way transport developed around17-20 controls and was clear by27, while a longer guarded authorization woke at48. At contact, choose a separately reviewed shorter prefix if the pending candidate advances far beyond the visible gap.",
+      "conditions": "Low-confidence scheduling restriction from one incomplete episode, supported by a prior opposite-side transport observation. Applies to grounded right-side insertion; it is a review interval, not the phase duration or a guarantee of safety. Reassess current RGB/FK and do not infer a universal semantic inversion. Contact onset and precise first error frame remain uncertain.",
+      "confidence": "low",
+      "kind": "hypothesis",
+      "frames": [
+        393,
+        410,
+        413,
+        420,
+        441,
+        591,
+        611,
+        649,
+        683,
+        723
+      ],
+      "phase": "insertion_supervision",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "insert the peg from the right side of the box",
+        "recommended_steps": 30,
+        "max_trust_steps": 32,
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "insertpeg-001"
+    },
+    {
+      "claim": "For far-end pickup, an initial110-control budget with a before-command gripper guard can reduce routine approach reviews while preserving a pre-close grasp-end check. In this episode it stopped after80 controls before closure; RGB comparison with the current demonstration exposed an end-alignment risk. After bounded correction, VLA visibly picked up the demonstrated end and the episode later succeeded.",
+      "conditions": "Low-confidence scheduling advice for an initial open-gripper approach, not a proven safe duration. Review the current candidate first and independently establish peg identity/end from this episode's demonstration. Inspect actual RGB when the guard blocks; if the proposed close is correct, approve it rather than repeatedly rearming the same blocked guard. The clear risk endpoint was80 controls after authorization, but exact onset was not established. Correction necessity and the unguarded outcome are unknown; do not reuse target coordinates or seed-specific answers.",
+      "confidence": "low",
+      "kind": "hypothesis",
+      "frames": [
+        78,
+        274,
+        354,
+        366,
+        382,
+        412,
+        681
+      ],
+      "phase": "pickup_preclose_supervision",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "pick up the peg by grasping the far end",
+        "recommended_steps": 110,
+        "max_trust_steps": 110,
+        "close_review": true,
+        "guards": [
+          {
+            "kind": "gripper_change",
+            "when": "before_command"
+          }
+        ],
+        "evidence_count": 1
+      },
+      "id": "insertpeg-002"
+    },
+    {
+      "claim": "For initial near-end pickup, a110-control authorization with a before-command gripper guard can combine ordinary approach execution with a pre-close visual check. Here the guard woke after64 controls; the correctly aligned close was approved with16, followed by30 controls of lift. Actual retention was observed and the episode later succeeded.",
+      "conditions": "Low-confidence budget advice from one episode using checkpoint79999. Determine identity and grasp end anew from current demonstration, inspect the initial candidate and actual guard-wake RGB, and approve an expected safe transition rather than rearming an identical blocked guard.110 is an initial phase estimate, not remaining time or proven safety. No seed-specific point/end/color is transferable; insertion required separate supervision and recoveries.",
+      "confidence": "low",
+      "kind": "hypothesis",
+      "frames": [
+        82,
+        251,
+        315,
+        331,
+        361,
+        615
+      ],
+      "phase": "pickup_preclose_supervision",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "pick up the peg by grasping the near end",
+        "recommended_steps": 110,
+        "max_trust_steps": 110,
+        "close_review": true,
+        "guards": [
+          {
+            "kind": "gripper_change",
+            "when": "before_command"
+          }
+        ],
+        "evidence_count": 1
+      },
+      "id": "insertpeg-003"
+    },
+    {
+      "claim": "For left-side insertion when the tip is already at the box edge and the candidate proposes a many-centimetre advance, review at the first contact control, potentially using a single-control release rather than3-4 controls or a full-phase budget. In this incomplete episode, clear in-hand motion appeared two controls into both a3-control and a4-control authorization. Short prefixes alone did not resolve alignment; repeated similar corrections remained unproductive.",
+      "conditions": "Conditional advice for checkpoint79999, based on one episode. Establish current peg/end/side and inspect RGB/FK anew. Applies to contact with rapid proposed advance or renewed slip after recovery, not free-space transport or descent. Dense669-675 and786-790 established visible risk at674 and788, each offset2 from its authorization. A later2-control authorization953-955 also exposed upward relative movement by955; exact onset within954-955 is uncertain. One control is a review interval, not a proven safe bound. Available guards do not directly observe peg slip. Stop renewed loading and reassess actual alignment when progress diverges; no fixed correction or seed-specific pose is transferable.",
+      "confidence": "low",
+      "kind": "hypothesis",
+      "frames": [
+        669,
+        672,
+        674,
+        675,
+        786,
+        788,
+        790,
+        953,
+        954,
+        955,
+        975,
+        978
+      ],
+      "phase": "left_insertion_contact_supervision",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "insert the peg from the left side of the box",
+        "max_trust_steps": 1,
+        "close_review": true,
+        "first_risk_frame": 674,
+        "risk_offset_steps": 2,
+        "evidence_count": 1
+      },
+      "id": "insertpeg-006"
+    }
+  ],
+  "commits": []
+}

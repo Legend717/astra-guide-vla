@@ -1,0 +1,12 @@
+{
+  "model": "gpt-6-astra",
+  "reasoning": "high",
+  "max_calls": 80,
+  "max_output_tokens": 8192,
+  "max_context_tokens": 300000,
+  "max_scheduled_steps": 200,
+  "prefix": 16,
+  "policy_seed": 42,
+  "checkpoint_step": 79999,
+  "experience_update": "episodes 0-4: always; episodes 5-49: failure-only"
+}

@@ -1,0 +1,23 @@
+{
+  "protocol": "jev-choice-v1",
+  "endpoint": "http://127.0.0.1:18727/v1/decide",
+  "model": "JEV-27B-VL/transformers",
+  "revision": "local-bare-v1-decision-adapter",
+  "timeout_seconds": 5,
+  "max_calls": 20,
+  "max_total_seconds": 30,
+  "questions": {
+    "contact_readiness": {
+      "purpose": "stage_warning",
+      "prompt": "From this current camera image, is the gripper close enough to the visible target that contact or grasp alignment needs careful review? This is an early warning, not proof of actual contact or failure.",
+      "labels": ["approaching_contact", "clearly_separated", "uncertain"],
+      "review_labels": ["approaching_contact", "uncertain"]
+    },
+    "gripper_fact": {
+      "purpose": "visual_fact",
+      "prompt": "What is directly visible at the gripper in this current image? Do not infer grasp success from closed fingers alone. If the object or contact is occluded, answer uncertain.",
+      "labels": ["object_visible_between_fingers", "visibly_empty", "contact_without_visible_lift", "uncertain"],
+      "review_labels": ["object_visible_between_fingers", "visibly_empty", "contact_without_visible_lift", "uncertain"]
+    }
+  }
+}

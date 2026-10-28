@@ -1,0 +1,198 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-36293659db4675580d5243e0",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest left target by circling around the stick clockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest left target by circling around the stick clockwise\", \"segments\": 81, \"episodes\": 62, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 150, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest left target by circling around the stick clockwise",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "id": "duration-d78d5b833c433cb14f3af761",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest left target by circling around the stick counterclockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest left target by circling around the stick counterclockwise\", \"segments\": 65, \"episodes\": 55, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 200, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest left target by circling around the stick counterclockwise",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "id": "duration-97d68744767f63eb6ccd9661",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest right target by circling around the stick clockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest right target by circling around the stick clockwise\", \"segments\": 71, \"episodes\": 61, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 200, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest right target by circling around the stick clockwise",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "id": "duration-eb3fbedce5c7a723904ac5d2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest right target by circling around the stick counterclockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest right target by circling around the stick counterclockwise\", \"segments\": 72, \"episodes\": 61, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 150, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest right target by circling around the stick counterclockwise",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "claim": "Initial left-clockwise execution again departed on the opposite side from the current demonstration. A four-control release exposed the mismatch, clearly resolved at control 2; bounded guidance followed by fresh VLA eventually achieved official success. Validate world-axis direction against original demonstration RGB and available measured robot states before authorizing a full phase; smooth constant-height FK is insufficient.",
+      "conditions": "Current demonstration must establish the intended route. Original-frame reads can supply measured robot states to help ground direction before execution. This adds a successful early-review/recovery observation to the earlier 47-control failure; neither intervention necessity nor optimal prefix is established. Do not reuse target order, world-axis signs, coordinates or recovery waypoints.",
+      "confidence": "medium",
+      "kind": "observation",
+      "frames": [
+        14,
+        100,
+        102,
+        104,
+        122,
+        164,
+        213
+      ],
+      "phase": "initial route direction validation",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "move to the nearest left target by circling around the stick clockwise",
+        "recommended_steps": 10,
+        "max_trust_steps": 16,
+        "close_review": true,
+        "first_risk_frame": 102,
+        "risk_offset_steps": 2,
+        "evidence_count": 2
+      },
+      "id": "routestick-001"
+    },
+    {
+      "claim": "Once the right-counterclockwise route side was validated after guidance and the tool was partway around the arc, a 30-control budget executed two fresh VLA chunks to final approach; one additional control produced official success. A new phase candidate before guidance had proposed the opposite side and was vetoed, so this is mid-phase advice, not approval for unreviewed departures.",
+      "conditions": "Use only from currently observed mid-arc progress with demonstrated side/world-motion mapping and reviewed fresh FK. Review endpoint approach before further departure; the final candidate contained later unexecuted motion away from the target. A forbidden-direction guard must be chosen from current mapping and does not validate the path. One run does not prove 30 controls safe or optimal.",
+      "confidence": "low",
+      "kind": "observation",
+      "frames": [
+        64,
+        166,
+        182,
+        192,
+        199,
+        206,
+        212,
+        213
+      ],
+      "phase": "validated return arc",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "move to the nearest right target by circling around the stick counterclockwise",
+        "recommended_steps": 30,
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "routestick-002"
+    },
+    {
+      "claim": "A reviewed left-counterclockwise departure was executed with a40-control budget across3 fresh chunks to final approach, then an8-control endpoint release. Marker first visible red occurred45 controls from phase authorization; episode later achieved official success.40 controls can be a useful initial review budget when a different circling side is required next.",
+      "conditions": "Current demonstration and original robot/RGB mapping must validate departure side before authorizing. This was one run, not proof of safety or an optimal budget; duration is full-phase evidence, not remaining time from arbitrary progress. Review endpoint before next departure and obey dynamic caps. Do not reuse route, signs, target order or coordinates.",
+      "confidence": "low",
+      "kind": "observation",
+      "frames": [
+        248,
+        254,
+        268,
+        282,
+        288,
+        292,
+        293,
+        296,
+        411
+      ],
+      "phase": "validated left-counterclockwise arc",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "move to the nearest left target by circling around the stick counterclockwise",
+        "recommended_steps": 40,
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "routestick-003"
+    },
+    {
+      "claim": "Left-clockwise wrong-side candidate risk appeared after a settling chunk and again in the next departure tail when the same relative instruction was retained. Both candidates were vetoed before execution; bounded guidance followed by fresh VLA produced demonstrated-side arcs and eventual official success. Repeated identical instructions do not remove the need to review departures.",
+      "conditions": "Identify route side from the current demonstration plus original RGB/measured-state mapping. Here312 and360 are candidate-review states, not physical error frames, and no executed failure offset is established. Guidance necessity and the vetoed candidates' actual outcomes remain untested. Retain close review; do not copy world signs or waypoints.",
+      "confidence": "medium",
+      "kind": "observation",
+      "frames": [
+        114,
+        128,
+        170,
+        296,
+        312,
+        328,
+        360,
+        380,
+        411
+      ],
+      "phase": "departure and repeated-phase transition",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "move to the nearest left target by circling around the stick clockwise",
+        "recommended_steps": 10,
+        "max_trust_steps": 16,
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "routestick-004"
+    },
+    {
+      "claim": "A reviewed right-clockwise departure followed by a40-control budget executed3 fresh chunks with continued demonstrated-side progress. It required a16-control approach and an8-control endpoint release afterward; marker arrival first became visibly red58 controls after phase authorization, and the episode later achieved official success.40 controls can provide useful mid/late-arc review rather than assuming the50-control duration prior completes the phase.",
+      "conditions": "Use only after current demonstration, original RGB/measured-state mapping, and fresh candidate establish the required circling side. Obey the returned dynamic cap. This is one phase observation, not a safety guarantee or optimal duration. Remaining duration must be judged from actual progress. Review endpoint before a different next target/direction; the endpoint candidate here included an unexecuted further departure after settling. Do not reuse target order, coordinates, world-axis signs or route answers.",
+      "confidence": "low",
+      "kind": "observation",
+      "frames": [
+        100,
+        113,
+        296,
+        305,
+        314,
+        323,
+        332,
+        336,
+        352,
+        353,
+        354,
+        360,
+        406
+      ],
+      "phase": "validated right-clockwise arc and endpoint transition",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "move to the nearest right target by circling around the stick clockwise",
+        "recommended_steps": 40,
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "routestick-005"
+    }
+  ],
+  "commits": []
+}

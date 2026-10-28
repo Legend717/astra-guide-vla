@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-cadf8a5b423c3bc2e8c2ec00",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "insert the peg from the left side",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"insert the peg from the left side\", \"segments\": 47, \"episodes\": 47, \"min\": 92, \"p10\": 97.8, \"p25\": 109.5, \"median\": 118.0, \"p90\": 128.6, \"max\": 139, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "insert the peg from the left side",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "InsertPeg"
+      }
+    },
+    {
+      "id": "duration-850b4497eae0eb4a40eaf4ef",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "insert the peg from the right side",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"insert the peg from the right side\", \"segments\": 53, \"episodes\": 53, \"min\": 92, \"p10\": 100.0, \"p25\": 111.0, \"median\": 118.0, \"p90\": 149.40000000000003, \"max\": 167, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "insert the peg from the right side",
+        "recommended_steps": 110
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "InsertPeg"
+      }
+    },
+    {
+      "id": "duration-df35334062f02ea9d233cc7d",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the peg by grasping the far end",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"pick up the peg by grasping the far end\", \"segments\": 54, \"episodes\": 54, \"min\": 104, \"p10\": 110.3, \"p25\": 113.25, \"median\": 119.0, \"p90\": 126.7, \"max\": 135, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the peg by grasping the far end",
+        "recommended_steps": 110
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "InsertPeg"
+      }
+    },
+    {
+      "id": "duration-fa7233df1a7a2bffd3ed14d3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the peg by grasping the near end",
+      "claim": "Demonstration control-duration prior: {\"task\": \"InsertPeg\", \"subgoal\": \"pick up the peg by grasping the near end\", \"segments\": 46, \"episodes\": 46, \"min\": 106, \"p10\": 107.5, \"p25\": 113.25, \"median\": 120.0, \"p90\": 131.5, \"max\": 143, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the peg by grasping the near end",
+        "recommended_steps": 110
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "InsertPeg"
+      }
+    }
+  ],
+  "commits": []
+}

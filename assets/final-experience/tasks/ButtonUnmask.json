@@ -1,0 +1,77 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-7289071f15d9ce5029d59cbf",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmask\", \"subgoal\": \"pick up the container that hides the blue cube\", \"segments\": 41, \"episodes\": 41, \"min\": 88, \"p10\": 94.0, \"p25\": 99.0, \"median\": 107.0, \"p90\": 115.0, \"max\": 184, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the blue cube",
+        "recommended_steps": 90
+      }
+    },
+    {
+      "id": "duration-a480dbce8147c8122ea15c1b",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmask\", \"subgoal\": \"pick up the container that hides the green cube\", \"segments\": 36, \"episodes\": 36, \"min\": 90, \"p10\": 98.0, \"p25\": 102.0, \"median\": 107.0, \"p90\": 122.5, \"max\": 212, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the green cube",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-b34a6f985b516fc066bf22f7",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmask\", \"subgoal\": \"pick up the container that hides the red cube\", \"segments\": 48, \"episodes\": 48, \"min\": 84, \"p10\": 97.7, \"p25\": 101.0, \"median\": 107.0, \"p90\": 122.60000000000001, \"max\": 202, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the red cube",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-f8651054f6b72db421862721",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmask\", \"subgoal\": \"press the button\", \"segments\": 100, \"episodes\": 100, \"min\": 110, \"p10\": 111.0, \"p25\": 112.0, \"median\": 116.0, \"p90\": 122.0, \"max\": 125, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the button",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-621e157e2bc92de6ff37d7ef",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put down the container",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmask\", \"subgoal\": \"put down the container\", \"segments\": 25, \"episodes\": 25, \"min\": 41, \"p10\": 41.0, \"p25\": 47.0, \"median\": 48.0, \"p90\": 51.6, \"max\": 53, \"recommended_steps\": 40, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put down the container",
+        "recommended_steps": 40
+      }
+    }
+  ],
+  "commits": []
+}

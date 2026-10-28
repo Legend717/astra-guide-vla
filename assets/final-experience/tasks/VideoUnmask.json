@@ -1,0 +1,63 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-6089254896481bce9c75ee0a",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoUnmask\", \"subgoal\": \"pick up the container that hides the blue cube\", \"segments\": 30, \"episodes\": 30, \"min\": 92, \"p10\": 98.9, \"p25\": 103.25, \"median\": 109.0, \"p90\": 131.60000000000008, \"max\": 197, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the blue cube",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-380603f2f7d5356761204e30",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoUnmask\", \"subgoal\": \"pick up the container that hides the green cube\", \"segments\": 44, \"episodes\": 44, \"min\": 93, \"p10\": 98.0, \"p25\": 101.75, \"median\": 107.5, \"p90\": 116.4, \"max\": 179, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the green cube",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-e7fe63997cb78bb2065454fc",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoUnmask\", \"subgoal\": \"pick up the container that hides the red cube\", \"segments\": 51, \"episodes\": 51, \"min\": 91, \"p10\": 99.0, \"p25\": 101.0, \"median\": 108.0, \"p90\": 120.0, \"max\": 162, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the red cube",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-041f816c9edb63a7271e54f1",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put down the container",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoUnmask\", \"subgoal\": \"put down the container\", \"segments\": 25, \"episodes\": 25, \"min\": 41, \"p10\": 47.0, \"p25\": 48.0, \"median\": 50.0, \"p90\": 52.0, \"max\": 53, \"recommended_steps\": 40, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put down the container",
+        "recommended_steps": 40
+      }
+    }
+  ],
+  "commits": []
+}

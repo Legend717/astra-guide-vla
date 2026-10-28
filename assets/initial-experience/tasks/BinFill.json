@@ -1,0 +1,259 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-fc1167b4a2a2ef8c981820cc",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the first blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the first blue cube\", \"segments\": 45, \"episodes\": 45, \"min\": 85, \"p10\": 92.8, \"p25\": 102.0, \"median\": 110.0, \"p90\": 129.6, \"max\": 240, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the first blue cube",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-ea699d33600441f00937e18e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the first green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the first green cube\", \"segments\": 45, \"episodes\": 45, \"min\": 83, \"p10\": 98.2, \"p25\": 104.0, \"median\": 113.0, \"p90\": 131.2, \"max\": 170, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the first green cube",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-4723ac8fbf6af05196128d37",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the first red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the first red cube\", \"segments\": 51, \"episodes\": 51, \"min\": 81, \"p10\": 102.0, \"p25\": 107.5, \"median\": 115.0, \"p90\": 132.0, \"max\": 204, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the first red cube",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-26826868456a595113e87558",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the fourth blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the fourth blue cube\", \"segments\": 2, \"episodes\": 2, \"min\": 86, \"p10\": 88.4, \"p25\": 92.0, \"median\": 98.0, \"p90\": 107.6, \"max\": 110, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the fourth blue cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-9c10333eb9b9e716084e25ad",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the fourth green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the fourth green cube\", \"segments\": 1, \"episodes\": 1, \"min\": 130, \"p10\": 130.0, \"p25\": 130.0, \"median\": 130.0, \"p90\": 130.0, \"max\": 130, \"recommended_steps\": 130, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the fourth green cube",
+        "recommended_steps": 130
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-78ab129b194bfd9105fc1ff4",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the fourth red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the fourth red cube\", \"segments\": 1, \"episodes\": 1, \"min\": 133, \"p10\": 133.0, \"p25\": 133.0, \"median\": 133.0, \"p90\": 133.0, \"max\": 133, \"recommended_steps\": 130, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the fourth red cube",
+        "recommended_steps": 130
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-7b50275c458f7a96c728dfc3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the second blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the second blue cube\", \"segments\": 33, \"episodes\": 33, \"min\": 83, \"p10\": 87.4, \"p25\": 95.0, \"median\": 104.0, \"p90\": 122.4, \"max\": 126, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the second blue cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-5291fa8122da6445e073bab4",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the second green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the second green cube\", \"segments\": 27, \"episodes\": 27, \"min\": 87, \"p10\": 90.0, \"p25\": 97.0, \"median\": 103.0, \"p90\": 118.2, \"max\": 135, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the second green cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-ef50ab48140eeb8d71e2621f",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the second red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the second red cube\", \"segments\": 30, \"episodes\": 30, \"min\": 86, \"p10\": 87.9, \"p25\": 94.25, \"median\": 102.0, \"p90\": 125.4, \"max\": 189, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the second red cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-5b7a5d6dcbf4739dc688b7e9",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the third blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the third blue cube\", \"segments\": 18, \"episodes\": 18, \"min\": 81, \"p10\": 86.7, \"p25\": 94.5, \"median\": 106.0, \"p90\": 119.3, \"max\": 124, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the third blue cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-74f770f7b09ed07e3d95de2a",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the third green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the third green cube\", \"segments\": 13, \"episodes\": 13, \"min\": 85, \"p10\": 90.4, \"p25\": 94.0, \"median\": 99.0, \"p90\": 123.80000000000001, \"max\": 228, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the third green cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-d39adb9592c48a050cc97ca2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the third red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"pick up the third red cube\", \"segments\": 12, \"episodes\": 12, \"min\": 88, \"p10\": 94.1, \"p25\": 95.75, \"median\": 102.0, \"p90\": 117.7, \"max\": 119, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the third red cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-4f96968be5492575ebd8813a",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"press the button\", \"segments\": 100, \"episodes\": 100, \"min\": 83, \"p10\": 90.9, \"p25\": 96.0, \"median\": 101.0, \"p90\": 115.10000000000001, \"max\": 165, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the button",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    },
+    {
+      "id": "duration-b675469ac10200f52d3af305",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put it into the bin",
+      "claim": "Demonstration control-duration prior: {\"task\": \"BinFill\", \"subgoal\": \"put it into the bin\", \"segments\": 278, \"episodes\": 100, \"min\": 49, \"p10\": 58.7, \"p25\": 62.25, \"median\": 69.0, \"p90\": 83.30000000000001, \"max\": 101, \"recommended_steps\": 60, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put it into the bin",
+        "recommended_steps": 60
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "BinFill"
+      }
+    }
+  ],
+  "commits": []
+}

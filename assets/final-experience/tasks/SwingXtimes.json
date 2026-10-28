@@ -1,0 +1,278 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-207bbc992e1cb44bf2eeefe6",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the left-side target for the first time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"move to the top of the left-side target for the first time\", \"segments\": 100, \"episodes\": 100, \"min\": 32, \"p10\": 36.0, \"p25\": 38.0, \"median\": 40.0, \"p90\": 45.0, \"max\": 49, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the left-side target for the first time",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "id": "duration-2c38bca25d452773dfb941f2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the left-side target for the second time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"move to the top of the left-side target for the second time\", \"segments\": 77, \"episodes\": 77, \"min\": 32, \"p10\": 36.0, \"p25\": 38.0, \"median\": 41.0, \"p90\": 44.400000000000006, \"max\": 47, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the left-side target for the second time",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "id": "duration-55856fb193501308a4cacda2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the left-side target for the third time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"move to the top of the left-side target for the third time\", \"segments\": 46, \"episodes\": 46, \"min\": 32, \"p10\": 36.0, \"p25\": 38.0, \"median\": 41.5, \"p90\": 45.0, \"max\": 47, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the left-side target for the third time",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "id": "duration-22296d498f2c2e85b3089ef9",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the right-side target for the first time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"move to the top of the right-side target for the first time\", \"segments\": 100, \"episodes\": 100, \"min\": 16, \"p10\": 22.0, \"p25\": 26.75, \"median\": 33.0, \"p90\": 45.10000000000001, \"max\": 53, \"recommended_steps\": null, \"close_review\": true}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the right-side target for the first time",
+        "close_review": true
+      }
+    },
+    {
+      "id": "duration-a6ea9bdd60bec1b3f0a7a7c9",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the right-side target for the second time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"move to the top of the right-side target for the second time\", \"segments\": 77, \"episodes\": 77, \"min\": 32, \"p10\": 36.0, \"p25\": 38.0, \"median\": 40.0, \"p90\": 44.0, \"max\": 48, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the right-side target for the second time",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "id": "duration-c3d3bac6dc0278ff476720df",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the right-side target for the third time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"move to the top of the right-side target for the third time\", \"segments\": 46, \"episodes\": 46, \"min\": 32, \"p10\": 36.5, \"p25\": 38.0, \"median\": 42.0, \"p90\": 45.0, \"max\": 47, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the right-side target for the third time",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "id": "duration-2392fbe1d2c03a634dbf9422",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"pick up the blue cube\", \"segments\": 35, \"episodes\": 35, \"min\": 101, \"p10\": 102.0, \"p25\": 105.5, \"median\": 111.0, \"p90\": 146.2, \"max\": 198, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the blue cube",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-15d9b48b81c8cffa6723ab2b",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"pick up the green cube\", \"segments\": 31, \"episodes\": 31, \"min\": 103, \"p10\": 106.0, \"p25\": 110.0, \"median\": 118.0, \"p90\": 169.0, \"max\": 201, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the green cube",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-5d6237d4f38f79105abb4801",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"pick up the red cube\", \"segments\": 34, \"episodes\": 34, \"min\": 101, \"p10\": 104.0, \"p25\": 109.25, \"median\": 115.0, \"p90\": 139.1, \"max\": 191, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the red cube",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-267d98d9281eeec61c727219",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"press the button\", \"segments\": 100, \"episodes\": 100, \"min\": 83, \"p10\": 91.0, \"p25\": 94.75, \"median\": 101.5, \"p90\": 115.10000000000001, \"max\": 126, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the button",
+        "recommended_steps": 90
+      }
+    },
+    {
+      "id": "duration-3f3eef212acb1b67099d04e4",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put the blue cube on the table",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"put the blue cube on the table\", \"segments\": 35, \"episodes\": 35, \"min\": 34, \"p10\": 34.4, \"p25\": 35.0, \"median\": 36.0, \"p90\": 39.6, \"max\": 40, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put the blue cube on the table",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "id": "duration-521d20a66d6d7b37757515eb",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put the green cube on the table",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"put the green cube on the table\", \"segments\": 31, \"episodes\": 31, \"min\": 33, \"p10\": 34.0, \"p25\": 35.0, \"median\": 36.0, \"p90\": 40.0, \"max\": 43, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put the green cube on the table",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "id": "duration-da29d85688d3f66475962180",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put the red cube on the table",
+      "claim": "Demonstration control-duration prior: {\"task\": \"SwingXtimes\", \"subgoal\": \"put the red cube on the table\", \"segments\": 34, \"episodes\": 34, \"min\": 34, \"p10\": 35.0, \"p25\": 35.0, \"median\": 36.0, \"p90\": 39.7, \"max\": 43, \"recommended_steps\": 30, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put the red cube on the table",
+        "recommended_steps": 30
+      }
+    },
+    {
+      "claim": "When additional swings remain after an intermediate left-target visit, review the endpoint candidate before continuing and consider an explicit gripper_change before_command guard during travel. A pending candidate may begin placement/opening even after changing to the next right-target subgoal. Do not approve that opening merely because the target visit is complete; inspect the fresh candidate. Ordinary cross-table approach need not inherit a short contact-review interval.",
+      "conditions": "SwingXtimes with cube held and more right-left cycles required. At244, after30-control first-left authorization plus10-control settling prefix, old candidate proposed opening at step6; fresh second-right candidate also proposed opening at step3. Both were withheld, so this is predicted-command risk, not an observed drop. A16-control closed lift/short lateral initiation was followed at260 by retained cube and correct VLA travel; necessity or general superiority of that recovery is unproven. Exact executed error onset and a safe timing bound are not established. Existing duration priors do not address this endpoint carryover.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        234,
+        236,
+        244,
+        260
+      ],
+      "phase": "intermediate_swing_endpoint",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "move to the top of the left-side target for the first time",
+        "recommended_steps": 30,
+        "max_trust_steps": 16,
+        "close_review": true,
+        "guards": [
+          {
+            "kind": "gripper_change",
+            "when": "before_command"
+          }
+        ],
+        "evidence_count": 1
+      },
+      "id": "swingxtimes-001"
+    },
+    {
+      "claim": "Separate stop-button approach from contact, but do not assume60 controls remain an approach-only interval after placement. Prefer an initial review around30 controls or an explicit gripper-closure guard, then inspect current front/wrist cap-to-fingertip alignment and use at most one16-control prefix near contact or whenever alignment is uncertain. A before-command gripper_change guard can expose the closure transition; it cannot validate alignment, and an expected safe transition should be approved once rather than repeatedly blocked. These are conditional review recommendations, not safe bounds.",
+      "conditions": "SwingXtimes press-the-button phase after cube placement. This revises the previous60-control approach suggestion:60 were authorized at420 and already included closure, off-center low descent and retreat by480. Sparse420\u2013480, dense445\u2013480 and original468 show a closed-finger lateral-offset precursor at449 (+29), clear low offset by462 (+42), and low miss at468 (+48). Exact onset of harmful contact is unknown; the precursor could still have been corrected. The earlier episode's90-control authorization also exposed off-center contact late. The current episode ended in official failure612 during later correction, with a separate unresolved swing visit, so button misalignment is not proven to be the sole failure cause. Keep ordinary cube travel separate. Existing guards do not observe object-relative lateral alignment.",
+      "confidence": "medium",
+      "kind": "observation",
+      "frames": [
+        420,
+        447,
+        449,
+        454,
+        462,
+        468,
+        470,
+        480,
+        520,
+        600,
+        612
+      ],
+      "phase": "button_contact",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "press the button",
+        "recommended_steps": 30,
+        "max_trust_steps": 16,
+        "close_review": true,
+        "guards": [
+          {
+            "kind": "gripper_change",
+            "when": "before_command"
+          }
+        ],
+        "first_risk_frame": 449,
+        "risk_offset_steps": 29,
+        "evidence_count": 2
+      },
+      "status": "active",
+      "id": "swingxtimes-002"
+    },
+    {
+      "claim": "Do not advance a swing-visit ledger solely because the EE has settled near a target or the pending trajectory looks finished. If cube-to-target alignment or the visit's visible indication remains ambiguous, resolve the current endpoint before selecting the opposite target. This can require better endpoint interpretation rather than shorter ordinary travel budgets; maintain uncertainty rather than assuming a hidden count.",
+      "conditions": "SwingXtimes target-visit transitions with the cube held. A first-right phase was reviewed after16 controls and again8 controls later, but the cube remained visibly offset near a gray ring at156/164 and the supervisor switched targets anyway. Sparse140\u2013210 and dense150\u2013179 show that unresolved endpoint and subsequent departure; later reviewed endpoints displayed red rings. Official failure occurred during final button descent612. A missed visit is only a hypothesis: no public counter or failure reason establishes it, absence in unsampled frames is not proof, and this does not define a universal red-ring success requirement. Unlike f7b2738... this concerns accepting/counting an ambiguous visit, not unintended gripper opening. No evidence supports reducing all travel budgets.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        140,
+        156,
+        164,
+        174,
+        179,
+        210,
+        260,
+        310,
+        350,
+        390,
+        612
+      ],
+      "phase": "swing_endpoint_acceptance",
+      "applicability": "common",
+      "status": "active",
+      "id": "swingxtimes-003"
+    }
+  ],
+  "commits": []
+}

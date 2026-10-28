@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1380" viewBox="0 0 1800 1380">
+<style>text{font-family:Arial,Helvetica,sans-serif} </style>
+<defs>
+<marker id="arrow-193449" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#193449" stroke-width="1.6"/></marker>
+<marker id="arrow-1779BB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#1779BB" stroke-width="1.6"/></marker>
+<marker id="arrow-C39336" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#C39336" stroke-width="1.6"/></marker>
+<marker id="arrow-87929C" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M1,1 L9,5 L1,9" fill="none" stroke="#87929C" stroke-width="1.6"/></marker>
+<g id="scene0">
+<path d="M10,113 L204,113 L222,132 L-8,132 Z" fill="#EFF3F3" stroke="#CCD8DC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="166" cy="115" rx="25" ry="8" fill="none" stroke="#D27466" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="22" y="93" width="22" height="22" rx="2" fill="#64A795" stroke="#34776B" />
+<path d="M184,109 L205,109 L210,118 L179,118 Z" fill="#D9E5EB" stroke="#193449" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L150,39 L94,55" fill="none" stroke="#193449" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L150,39 L94,55" fill="none" stroke="#C7DDE8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="194" cy="109" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="150" cy="39" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="94" cy="55" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<path d="M87,60 L87,71 M101,60 L101,71" fill="none" stroke="#193449" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="76" y="93" width="22" height="22" rx="2" fill="#E68172" stroke="#AF534E" />
+</g>
+<g id="scene1">
+<path d="M10,113 L204,113 L222,132 L-8,132 Z" fill="#EFF3F3" stroke="#CCD8DC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="166" cy="115" rx="25" ry="8" fill="none" stroke="#D27466" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="22" y="93" width="22" height="22" rx="2" fill="#64A795" stroke="#34776B" />
+<path d="M184,109 L205,109 L210,118 L179,118 Z" fill="#D9E5EB" stroke="#193449" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L137,39 L85,79" fill="none" stroke="#193449" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L137,39 L85,79" fill="none" stroke="#C7DDE8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="194" cy="109" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="137" cy="39" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="85" cy="79" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<path d="M78,84 L78,95 M92,84 L92,95" fill="none" stroke="#193449" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="76" y="93" width="22" height="22" rx="2" fill="#E68172" stroke="#AF534E" />
+</g>
+<g id="scene2">
+<path d="M10,113 L204,113 L222,132 L-8,132 Z" fill="#EFF3F3" stroke="#CCD8DC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="166" cy="115" rx="25" ry="8" fill="none" stroke="#D27466" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="22" y="93" width="22" height="22" rx="2" fill="#64A795" stroke="#34776B" />
+<path d="M184,109 L205,109 L210,118 L179,118 Z" fill="#D9E5EB" stroke="#193449" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L160,17 L121,38" fill="none" stroke="#193449" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L160,17 L121,38" fill="none" stroke="#C7DDE8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="194" cy="109" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="160" cy="17" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="121" cy="38" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<path d="M114,43 L114,54 M128,43 L128,54" fill="none" stroke="#193449" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="112" y="52" width="22" height="22" rx="2" fill="#E68172" stroke="#AF534E" />
+</g>
+<g id="scene3">
+<path d="M10,113 L204,113 L222,132 L-8,132 Z" fill="#EFF3F3" stroke="#CCD8DC" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="166" cy="115" rx="25" ry="8" fill="none" stroke="#D27466" stroke-width="2" stroke-dasharray="4 4"/>
+<rect x="22" y="93" width="22" height="22" rx="2" fill="#64A795" stroke="#34776B" />
+<path d="M184,109 L205,109 L210,118 L179,118 Z" fill="#D9E5EB" stroke="#193449" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L198,42 L165,79" fill="none" stroke="#193449" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M194,109 L198,42 L165,79" fill="none" stroke="#C7DDE8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="194" cy="109" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="198" cy="42" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<circle cx="165" cy="79" r="7" fill="#EDF5F8" stroke="#193449" stroke-width="1.5"/>
+<path d="M158,84 L158,95 M172,84 L172,95" fill="none" stroke="#193449" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<rect x="156" y="93" width="22" height="22" rx="2" fill="#E68172" stroke="#AF534E" />
+</g>
+</defs>
+<rect x="0" y="0" width="1800" height="1380" rx="0" fill="#FFFFFF" stroke="none" />
+<text x="42" y="49" font-size="32" fill="#193449" font-weight="700" text-anchor="start" >(a) Experience guides when Astra reviews</text>
+<rect x="44" y="65" width="283" height="74" rx="7" fill="#F5F8F9" stroke="#CCD8DE" />
+<text x="57" y="85" font-size="17" fill="#193449" font-weight="700" text-anchor="start" >Task history</text>
+<rect x="72" y="101" width="24" height="24" rx="2" fill="#64A795" stroke="#34776B" />
+<rect x="127" y="94" width="38" height="38" rx="6" fill="#FFF0B5" stroke="#D5A229" stroke-width="2"/>
+<rect x="134" y="101" width="24" height="24" rx="2" fill="#E68172" stroke="#AF534E" />
+<rect x="236" y="99" width="37" height="29" rx="4" fill="none" stroke="#D27466" stroke-dasharray="4 3"/>
+<text x="255" y="88" font-size="14" fill="#74838E" font-weight="400" text-anchor="middle" >Target</text>
+<text x="368" y="85" font-size="18" fill="#193449" font-weight="700" text-anchor="start" >Task instruction</text>
+<text x="368" y="111" font-size="21" fill="#193449" font-weight="400" text-anchor="start" >Pick up the highlighted block</text>
+<text x="368" y="137" font-size="21" fill="#193449" font-weight="400" text-anchor="start" >and place it in the target area.</text>
+<path d="M765,106 L830,106" fill="none" stroke="#193449" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-193449)"/>
+<g transform="translate(890,103) scale(0.65)">
+<path d="M0,-45 L0,-36" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="0" cy="-48" r="5" fill="#FFC960" stroke="none" stroke-width="2"/>
+<rect x="-49" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="39" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="-41" y="-32" width="82" height="64" rx="22" fill="#EDF5F8" stroke="#193449" stroke-width="2.3"/>
+<rect x="-33" y="-24" width="66" height="46" rx="15" fill="#213E50" stroke="none" />
+<ellipse cx="-15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<ellipse cx="15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<path d="M-7,10 Q0,15 7,10" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="890" y="140" font-size="16" fill="#193449" font-weight="400" text-anchor="middle" >Astra</text>
+<path d="M937,106 L992,106" fill="none" stroke="#193449" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-193449)"/>
+<text x="1020" y="85" font-size="18" fill="#1779BB" font-weight="700" text-anchor="start" >Grounded subgoal</text>
+<text x="1020" y="118" font-size="23" fill="#1779BB" font-weight="700" text-anchor="start" >Place the red block in the target area.</text>
+<text x="1748" y="45" font-size="16" fill="#74838E" font-weight="400" text-anchor="end" >Conceptual task illustration</text>
+<rect x="30" y="149" width="1740" height="270" rx="16" fill="#FFF9ED" stroke="#E8D9BA" />
+<text x="55" y="190" font-size="27" fill="#193449" font-weight="700" text-anchor="start" >Per-chunk review</text>
+<text x="55" y="226" font-size="21" fill="#193449" font-weight="400" text-anchor="start" >Same subgoal.</text>
+<text x="55" y="256" font-size="21" fill="#193449" font-weight="400" text-anchor="start" >Another check.</text>
+<text x="55" y="286" font-size="21" fill="#193449" font-weight="400" text-anchor="start" >Another “continue”.</text>
+<text x="55" y="383" font-size="18" fill="#96712D" font-weight="400" text-anchor="start" >Repeated Astra inference</text>
+<use href="#scene0" x="435" y="250"/>
+<text x="540" y="402" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >Reach</text>
+<use href="#scene1" x="745" y="250"/>
+<text x="850" y="402" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >Grasp</text>
+<use href="#scene2" x="1055" y="250"/>
+<text x="1160" y="402" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >Transport</text>
+<use href="#scene3" x="1365" y="250"/>
+<text x="1470" y="402" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >Place</text>
+<g transform="translate(695,230) scale(0.85)">
+<path d="M0,-45 L0,-36" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="0" cy="-48" r="5" fill="#FFC960" stroke="none" stroke-width="2"/>
+<rect x="-49" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="39" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="-41" y="-32" width="82" height="64" rx="22" fill="#EDF5F8" stroke="#193449" stroke-width="2.3"/>
+<rect x="-33" y="-24" width="66" height="46" rx="15" fill="#213E50" stroke="none" />
+<ellipse cx="-15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<ellipse cx="15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<path d="M-7,10 Q0,15 7,10" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="695" y="181" font-size="21" fill="#96712D" font-weight="700" text-anchor="middle" >Continue.</text>
+<path d="M650,335 L740,335" fill="none" stroke="#C39336" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-C39336)"/>
+<g transform="translate(1005,230) scale(0.85)">
+<path d="M0,-45 L0,-36" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="0" cy="-48" r="5" fill="#FFC960" stroke="none" stroke-width="2"/>
+<rect x="-49" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="39" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="-41" y="-32" width="82" height="64" rx="22" fill="#EDF5F8" stroke="#193449" stroke-width="2.3"/>
+<rect x="-33" y="-24" width="66" height="46" rx="15" fill="#213E50" stroke="none" />
+<path d="M-22,-3 Q-15,4 -8,-3" fill="none" stroke="#70D3F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M-22,-7 L-8,-7" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M8,-3 Q15,4 22,-3" fill="none" stroke="#70D3F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M8,-7 L22,-7" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M-6,12 L6,12" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="1005" y="181" font-size="21" fill="#96712D" font-weight="700" text-anchor="middle" >Still going…</text>
+<path d="M960,335 L1050,335" fill="none" stroke="#C39336" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-C39336)"/>
+<g transform="translate(1315,230) scale(0.85)">
+<path d="M0,-45 L0,-36" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="0" cy="-48" r="5" fill="#FFC960" stroke="none" stroke-width="2"/>
+<rect x="-49" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="39" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="-41" y="-32" width="82" height="64" rx="22" fill="#EDF5F8" stroke="#193449" stroke-width="2.3"/>
+<rect x="-33" y="-24" width="66" height="46" rx="15" fill="#213E50" stroke="none" />
+<path d="M-22,-6 L-8,-6" fill="none" stroke="#70D3F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M8,-6 L22,-6" fill="none" stroke="#70D3F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<ellipse cx="0" cy="10" rx="6" ry="9" fill="#70D3F5"/>
+</g>
+<text x="1315" y="181" font-size="21" fill="#96712D" font-weight="700" text-anchor="middle" >Again?</text>
+<path d="M1270,335 L1360,335" fill="none" stroke="#C39336" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-C39336)"/>
+<circle cx="1704" cy="326" r="23" fill="#469879" stroke="none" stroke-width="2"/>
+<path d="M1693,326 l8,8 l14,-17" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+<text x="1704" y="373" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >Done</text>
+<rect x="30" y="439" width="1740" height="375" rx="16" fill="#F1F8FC" stroke="#BDDAEA" />
+<text x="55" y="480" font-size="27" fill="#1779BB" font-weight="700" text-anchor="start" >Our harness</text>
+<rect x="65" y="509" width="246" height="191" rx="9" fill="#FFFFFF" stroke="#94B8CC" />
+<path d="M58,530 h15" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M58,555 h15" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M58,580 h15" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M58,605 h15" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M58,630 h15" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M58,655 h15" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M58,680 h15" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<text x="86" y="542" font-size="23" fill="#1779BB" font-weight="700" text-anchor="start" >Experience</text>
+<text x="86" y="577" font-size="19" fill="#193449" font-weight="700" text-anchor="start" >Routine transport</text>
+<text x="86" y="607" font-size="19" fill="#193449" font-weight="400" text-anchor="start" >→ longer budget</text>
+<text x="86" y="636" font-size="19" fill="#193449" font-weight="400" text-anchor="start" >→ selected monitor</text>
+<text x="86" y="677" font-size="17" fill="#628094" font-weight="400" text-anchor="start" >Read · reflect · revise</text>
+<text x="185" y="731" font-size="18" fill="#628094" font-weight="400" text-anchor="middle" >VLA weights fixed</text>
+<path d="M322,578 L365,578" fill="none" stroke="#1779BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-1779BB)"/>
+<g transform="translate(405,578) scale(0.72)">
+<path d="M0,-45 L0,-36" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="0" cy="-48" r="5" fill="#FFC960" stroke="none" stroke-width="2"/>
+<rect x="-49" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="39" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="-41" y="-32" width="82" height="64" rx="22" fill="#EDF5F8" stroke="#193449" stroke-width="2.3"/>
+<rect x="-33" y="-24" width="66" height="46" rx="15" fill="#213E50" stroke="none" />
+<ellipse cx="-15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<ellipse cx="15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<path d="M-7,10 Q0,15 7,10" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="405" y="631" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >Astra</text>
+<rect x="470" y="465" width="458" height="79" rx="9" fill="#FFFFFF" stroke="#BDDAEA" />
+<text x="491" y="493" font-size="20" fill="#1779BB" font-weight="700" text-anchor="start" >Budget: up to 100 control steps</text>
+<text x="491" y="524" font-size="20" fill="#193449" font-weight="400" text-anchor="start" >Monitor: gripper change</text>
+<text x="933" y="535" font-size="15" fill="#74838E" font-weight="400" text-anchor="start" >Illustrative</text>
+<g transform="translate(1115,505) scale(0.7)">
+<path d="M0,-45 L0,-36" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="0" cy="-48" r="5" fill="#FFC960" stroke="none" stroke-width="2"/>
+<rect x="-49" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="39" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="-41" y="-32" width="82" height="64" rx="22" fill="#EDF5F8" stroke="#193449" stroke-width="2.3"/>
+<rect x="-33" y="-24" width="66" height="46" rx="15" fill="#213E50" stroke="none" />
+<path d="M-22,-6 Q-15,1 -8,-6" fill="none" stroke="#70D3F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M8,-6 Q15,1 22,-6" fill="none" stroke="#70D3F5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M-7,10 Q0,16 7,10" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="1155" y="485" font-size="22" fill="#1779BB" font-weight="700" text-anchor="start" >Zzz</text>
+<text x="1115" y="554" font-size="18" fill="#1779BB" font-weight="400" text-anchor="middle" >On standby</text>
+<path d="M1370,504 q0,-21 17,-21 q17,0 17,21 l7,12 h-48 Z" fill="#D8EEFA" stroke="#1779BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="1387" cy="521" r="4" fill="#1779BB" stroke="none" stroke-width="2"/>
+<path d="M1357,484 l-7,-8 M1417,484 l7,-8" fill="none" stroke="#1779BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<text x="1430" y="494" font-size="18" fill="#1779BB" font-weight="700" text-anchor="start" >Monitor stays active</text>
+<text x="1430" y="523" font-size="18" fill="#193449" font-weight="400" text-anchor="start" >Event → early review</text>
+<use href="#scene0" x="435" y="575"/>
+<use href="#scene1" x="745" y="575"/>
+<use href="#scene2" x="1055" y="575"/>
+<use href="#scene3" x="1365" y="575"/>
+<rect x="440" y="722" width="89" height="16" rx="3" fill="#358CC3" stroke="none" />
+<rect x="535" y="722" width="89" height="16" rx="3" fill="#62ADDB" stroke="none" />
+<rect x="630" y="722" width="89" height="16" rx="3" fill="#358CC3" stroke="none" />
+<rect x="725" y="722" width="89" height="16" rx="3" fill="#62ADDB" stroke="none" />
+<rect x="820" y="722" width="89" height="16" rx="3" fill="#358CC3" stroke="none" />
+<rect x="915" y="722" width="89" height="16" rx="3" fill="#62ADDB" stroke="none" />
+<rect x="1010" y="722" width="89" height="16" rx="3" fill="#358CC3" stroke="none" />
+<rect x="1105" y="722" width="89" height="16" rx="3" fill="#62ADDB" stroke="none" />
+<rect x="1200" y="722" width="89" height="16" rx="3" fill="#358CC3" stroke="none" />
+<rect x="1295" y="722" width="89" height="16" rx="3" fill="#62ADDB" stroke="none" />
+<rect x="1390" y="722" width="89" height="16" rx="3" fill="#358CC3" stroke="none" />
+<rect x="1485" y="722" width="89" height="16" rx="3" fill="#62ADDB" stroke="none" />
+<text x="1010" y="764" font-size="19" fill="#1779BB" font-weight="400" text-anchor="middle" >VLA action chunks · fresh observations throughout</text>
+<g transform="translate(1680,610) scale(0.75)">
+<path d="M0,-45 L0,-36" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<circle cx="0" cy="-48" r="5" fill="#FFC960" stroke="none" stroke-width="2"/>
+<rect x="-49" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="39" y="-12" width="10" height="25" rx="5" fill="#E4EDF2" stroke="#193449" />
+<rect x="-41" y="-32" width="82" height="64" rx="22" fill="#EDF5F8" stroke="#193449" stroke-width="2.3"/>
+<rect x="-33" y="-24" width="66" height="46" rx="15" fill="#213E50" stroke="none" />
+<ellipse cx="-15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<ellipse cx="15" cy="-5" rx="6" ry="9" fill="#70D3F5"/>
+<path d="M-7,10 Q0,15 7,10" fill="none" stroke="#70D3F5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+</g>
+<text x="1680" y="671" font-size="19" fill="#1779BB" font-weight="700" text-anchor="middle" >Review</text>
+<text x="1680" y="700" font-size="16" fill="#193449" font-weight="400" text-anchor="middle" >Correct if needed</text>
+<path d="M1577,729 Q1615,729 1631,651" fill="none" stroke="#1779BB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-1779BB)"/>
+<text x="1680" y="748" font-size="16" fill="#193449" font-weight="400" text-anchor="middle" >Budget reached</text>
+<path d="M1387,535 Q1387,566 1628,579" fill="none" stroke="#1779BB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="5 6" marker-end="url(#arrow-1779BB)"/>
+<path d="M1660,771 L1660,795 L185,795 L185,753" fill="none" stroke="#1779BB" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-1779BB)"/>
+<rect x="674" y="780" width="655" height="28" rx="0" fill="#F1F8FC" stroke="none" />
+<text x="1000" y="800" font-size="19" fill="#1779BB" font-weight="400" text-anchor="middle" >Outcome &amp; reflection → revise for later episodes</text>
+<text x="45" y="869" font-size="29" fill="#193449" font-weight="700" text-anchor="start" >(b) RoboMME Performance</text>
+<text x="658" y="869" font-size="29" fill="#193449" font-weight="700" text-anchor="start" >(c) Four memory suites</text>
+<text x="1251" y="869" font-size="29" fill="#193449" font-weight="700" text-anchor="start" >(d) Less repeated review</text>
+<path d="M621,851 V1301" fill="none" stroke="#E3E9ED" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M1214,851 V1301" fill="none" stroke="#E3E9ED" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M98,1190.0 H581" fill="none" stroke="#E3E9ED" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="84" y="1196.0" font-size="17" fill="#74838E" font-weight="400" text-anchor="end" >0</text>
+<path d="M98,1083.5 H581" fill="none" stroke="#E3E9ED" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="84" y="1089.5" font-size="17" fill="#74838E" font-weight="400" text-anchor="end" >50</text>
+<path d="M98,977.0 H581" fill="none" stroke="#E3E9ED" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="84" y="983.0" font-size="17" fill="#74838E" font-weight="400" text-anchor="end" >100</text>
+<path d="M98,977 V1190 H581" fill="none" stroke="#193449" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+<text x="50" y="1095" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" transform="rotate(-90 50 1095)">Success (%)</text>
+<rect x="144" y="1010.867" width="95" height="179.13299999999998" rx="2" fill="#C39336" stroke="none" />
+<text x="191.5" y="998.867" font-size="22" fill="#193449" font-weight="700" text-anchor="middle" >84.1%</text>
+<rect x="302" y="997.235" width="95" height="192.765" rx="2" fill="#87929C" stroke="none" />
+<text x="349.5" y="985.235" font-size="22" fill="#193449" font-weight="700" text-anchor="middle" >90.5%</text>
+<rect x="460" y="983.177" width="95" height="206.82299999999998" rx="2" fill="#1779BB" stroke="none" />
+<text x="507.5" y="971.177" font-size="30" fill="#1779BB" font-weight="700" text-anchor="middle" >97.1%</text>
+<path d="M191,978 C235,908 420,910 508,943" fill="none" stroke="#1779BB" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arrow-1779BB)"/>
+<rect x="279" y="905" width="150" height="32" rx="0" fill="#FFFFFF" stroke="none" />
+<text x="354" y="930" font-size="24" fill="#1779BB" font-weight="700" text-anchor="middle" >+13.0 pp</text>
+<text x="191" y="1220" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >GroundSG</text>
+<text x="191" y="1244" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >+ Oracle</text>
+<text x="349" y="1220" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >Human skill</text>
+<text x="349" y="1244" font-size="18" fill="#193449" font-weight="400" text-anchor="middle" >selection</text>
+<text x="507" y="1220" font-size="18" fill="#1779BB" font-weight="700" text-anchor="middle" >Our harness</text>
+<text x="333" y="1284" font-size="19" fill="#1779BB" font-weight="400" text-anchor="middle" >Ours: 16 tasks · 800 episodes</text>
+<circle cx="923" cy="1080" r="34.75" fill="none" stroke="#DEE7ED" stroke-width="1"/>
+<circle cx="923" cy="1080" r="69.5" fill="none" stroke="#DEE7ED" stroke-width="1"/>
+<circle cx="923" cy="1080" r="104.25" fill="none" stroke="#DEE7ED" stroke-width="1"/>
+<circle cx="923" cy="1080" r="139.0" fill="none" stroke="#DEE7ED" stroke-width="1"/>
+<path d="M784,1080 H1062 M923,941 V1219" fill="none" stroke="#DEE7ED" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<text x="930" y="1085.0" font-size="12" fill="#94A2AD" font-weight="400" text-anchor="start" >0</text>
+<text x="930" y="1015.5" font-size="12" fill="#94A2AD" font-weight="400" text-anchor="start" >50</text>
+<text x="930" y="946.0" font-size="12" fill="#94A2AD" font-weight="400" text-anchor="start" >100</text>
+<polygon points="923.00,963.43 1052.69,1080.00 923.00,1212.28 834.07,1080.00" fill="none" fill-opacity="0.10" stroke="#C39336" stroke-width="2" stroke-dasharray="7 4 1 4"/>
+<circle cx="923.0" cy="963.4311250000001" r="4" fill="#C39336" stroke="#C39336" stroke-width="2"/>
+<circle cx="1052.69395" cy="1080.0" r="4" fill="#C39336" stroke="#C39336" stroke-width="2"/>
+<circle cx="923.0" cy="1212.27935" r="4" fill="#C39336" stroke="#C39336" stroke-width="2"/>
+<circle cx="834.07475" cy="1080.0" r="4" fill="#C39336" stroke="#C39336" stroke-width="2"/>
+<polygon points="923.00,956.99 1049.49,1080.00 923.00,1209.27 798.60,1080.00" fill="none" fill-opacity="0.10" stroke="#87929C" stroke-width="2" stroke-dasharray="6 5"/>
+<circle cx="923.0" cy="956.985" r="4" fill="#87929C" stroke="#87929C" stroke-width="2"/>
+<circle cx="1049.49" cy="1080.0" r="4" fill="#87929C" stroke="#87929C" stroke-width="2"/>
+<circle cx="923.0" cy="1209.27" r="4" fill="#87929C" stroke="#87929C" stroke-width="2"/>
+<circle cx="798.595" cy="1080.0" r="4" fill="#87929C" stroke="#87929C" stroke-width="2"/>
+<polygon points="923.00,945.17 1058.53,1080.00 923.00,1214.83 788.17,1080.00" fill="#1779BB" fill-opacity="0.10" stroke="#1779BB" stroke-width="3" stroke-dasharray=""/>
+<circle cx="923.0" cy="945.17" r="4" fill="#FFFFFF" stroke="#1779BB" stroke-width="2"/>
+<circle cx="1058.525" cy="1080.0" r="4" fill="#FFFFFF" stroke="#1779BB" stroke-width="2"/>
+<circle cx="923.0" cy="1214.83" r="4" fill="#FFFFFF" stroke="#1779BB" stroke-width="2"/>
+<circle cx="788.17" cy="1080.0" r="4" fill="#FFFFFF" stroke="#1779BB" stroke-width="2"/>
+<text x="923" y="922" font-size="19" fill="#193449" font-weight="400" text-anchor="middle" >Counting</text>
+<text x="1080" y="1086" font-size="18" fill="#193449" font-weight="400" text-anchor="start" >Permanence</text>
+<text x="923" y="1248" font-size="19" fill="#193449" font-weight="400" text-anchor="middle" >Reference</text>
+<text x="767" y="1086" font-size="18" fill="#193449" font-weight="400" text-anchor="end" >Imitation</text>
+<text x="923" y="1284" font-size="22" fill="#1779BB" font-weight="700" text-anchor="middle" >≥97% in every suite</text>
+<text x="1496" y="1001" font-size="86" fill="#1779BB" font-weight="700" text-anchor="middle" >54.9%</text>
+<text x="1496" y="1053" font-size="27" fill="#193449" font-weight="400" text-anchor="middle" >of control steps</text>
+<text x="1496" y="1090" font-size="27" fill="#193449" font-weight="400" text-anchor="middle" >without additional</text>
+<text x="1496" y="1127" font-size="27" fill="#193449" font-weight="700" text-anchor="middle" >Astra review</text>
+<rect x="1282" y="1170" width="428" height="26" rx="3" fill="#E6EBEE" stroke="none" />
+<rect x="1282" y="1170" width="234.972" height="26" rx="3" fill="#1779BB" stroke="none" />
+<text x="1282" y="1229" font-size="19" fill="#1779BB" font-weight="700" text-anchor="start" >Automatic continuation</text>
+<text x="1710" y="1229" font-size="18" fill="#87929C" font-weight="400" text-anchor="end" >Other</text>
+<text x="1496" y="1284" font-size="19" fill="#74838E" font-weight="400" text-anchor="middle" >Across 800 episodes</text>
+<path d="M44,1314 H1756" fill="none" stroke="#E3E9ED" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M60,1343 h39" fill="none" stroke="#C39336" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="7 4 1 4"/>
+<text x="111" y="1350" font-size="18" fill="#193449" font-weight="400" text-anchor="start" >GroundSG + Oracle</text>
+<path d="M335,1343 h39" fill="none" stroke="#87929C" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="6 5"/>
+<text x="386" y="1350" font-size="18" fill="#193449" font-weight="400" text-anchor="start" >Human skill selection</text>
+<path d="M640,1343 h39" fill="none" stroke="#1779BB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray=""/>
+<text x="691" y="1350" font-size="18" fill="#193449" font-weight="400" text-anchor="start" >Our harness</text>
+<text x="1755" y="1349" font-size="16" fill="#74838E" font-weight="400" text-anchor="end" >Published reference scores; broader comparisons in the main results.</text>
+</svg>

@@ -1,0 +1,202 @@
+{
+  "BinFill": {
+    "grounded": [
+      "pick up the [first/second/third/...][red/blue/green] cube at <y, x>",
+      "put it into the bin at <y, x>",
+      "press the button at <y, x>"
+    ],
+    "simple": [
+      "pick up the [first/second/third/...][red/blue/green] cube",
+      "put it into the bin",
+      "press the button"
+    ]
+  },
+  "ButtonUnmask": {
+    "grounded": [
+      "press the button at <y, x>",
+      "pick up the container at <y, x> that hides the [red/blue/green] cube",
+      "put down the container"
+    ],
+    "simple": [
+      "press the button",
+      "pick up the container that hides the [red/blue/green] cube",
+      "put down the container"
+    ]
+  },
+  "ButtonUnmaskSwap": {
+    "grounded": [
+      "press the first button at <y, x>",
+      "press the second button at <y, x>",
+      "pick up the container at <y, x> that hides the [red/blue/green] cube",
+      "put down the container"
+    ],
+    "simple": [
+      "press the first button",
+      "press the second button",
+      "pick up the container that hides the [red/blue/green] cube",
+      "put down the container"
+    ]
+  },
+  "InsertPeg": {
+    "grounded": [
+      "pick up the peg by grasping the [near/far] end at <y, x>",
+      "insert the peg from the [left/right] side of the box at <y, x>"
+    ],
+    "simple": [
+      "pick up the peg by grasping the [near/far] end",
+      "insert the peg from the [left/right] side of the box"
+    ]
+  },
+  "MoveCube": {
+    "grounded": [
+      "pick up the cube at <y, x>",
+      "place the cube onto the target at <y, x>",
+      "pick up the peg at <y, x>",
+      "hook the cube at <y, x> to the target at <y, x> with the peg",
+      "close gripper and push the cube at <y, x> to the target at <y, x>"
+    ],
+    "simple": [
+      "close gripper and push the cube to the target",
+      "pick up the cube",
+      "place the cube onto the target",
+      "pick up the peg",
+      "hook the cube to the target with the peg"
+    ]
+  },
+  "PatternLock": {
+    "grounded": [
+      "move forward",
+      "move left",
+      "move right",
+      "move backward",
+      "move forward-left",
+      "move forward-right",
+      "move backward-left",
+      "move backward-right"
+    ],
+    "simple": [
+      "move forward",
+      "move left",
+      "move right",
+      "move backward",
+      "move forward-left",
+      "move forward-right",
+      "move backward-left",
+      "move backward-right"
+    ]
+  },
+  "PickHighlight": {
+    "grounded": [
+      "pick up the [first/second/third/...] highlighted cube at <y, x>, which is [red/blue/green]",
+      "place the cube onto the table",
+      "press the button at <y, x>",
+      "pick up the highlighted cube at <y, x>, which is [red/blue/green]"
+    ],
+    "simple": [
+      "pick up the [first/second/third/...] highlighted cube, which is [red/blue/green]",
+      "place the cube onto the table",
+      "press the button",
+      "pick up the highlighted cube, which is [red/blue/green]"
+    ]
+  },
+  "PickXtimes": {
+    "grounded": [
+      "pick up the [color] cube at <y, x> for the [first/second/third/...] time",
+      "place the [color] cube onto the target at <y, x>",
+      "press the button to stop at <y, x>"
+    ],
+    "simple": [
+      "pick up the [color] cube for the [first/second/third/...] time",
+      "place the [color] cube onto the target",
+      "press the button to stop"
+    ]
+  },
+  "RouteStick": {
+    "grounded": [
+      "move to the nearest [left/right] target by circling around the stick [clockwise/counterclockwise]"
+    ],
+    "simple": [
+      "move to the nearest [left/right] target by circling around the stick [clockwise/counterclockwise]"
+    ]
+  },
+  "StopCube": {
+    "grounded": [
+      "move to the top of the button at <y, x> to prepare",
+      "remain static",
+      "press the button to stop the cube on the target at <y, x>"
+    ],
+    "simple": [
+      "move to the top of the button to prepare",
+      "remain static",
+      "press the button to stop the cube on the target"
+    ]
+  },
+  "SwingXtimes": {
+    "grounded": [
+      "pick up the [color] cube at <y, x>",
+      "move to the top of the right target at <y, x> for the [first/second/third/...] time",
+      "move to the top of the left target at <y, x> for the [first/second/third/...] time",
+      "put the [color] cube on the table",
+      "press the button at <y, x>"
+    ],
+    "simple": [
+      "pick up the [color] cube",
+      "move to the top of the right-side target for the [first/second/third/...] time",
+      "move to the top of the left-side target for the [first/second/third/...] time",
+      "put the [color] cube on the table",
+      "press the button"
+    ]
+  },
+  "VideoPlaceButton": {
+    "grounded": [
+      "pick up the cube at <y, x>",
+      "place the cube onto the correct target at <y, x>"
+    ],
+    "simple": [
+      "pick up the cube",
+      "place the cube onto the correct target"
+    ]
+  },
+  "VideoPlaceOrder": {
+    "grounded": [
+      "pick up the cube at <y, x>",
+      "place the cube onto the correct target at <y, x>"
+    ],
+    "simple": [
+      "pick up the cube",
+      "place the cube onto the correct target"
+    ]
+  },
+  "VideoRepick": {
+    "grounded": [
+      "pick up the correct cube at <y, x> for the [first/second/third/...] time",
+      "put it down",
+      "press the button at <y, x> to finish"
+    ],
+    "simple": [
+      "pick up the correct cube for the [first/second/third/...] time",
+      "put it down",
+      "press the button to finish"
+    ]
+  },
+  "VideoUnmask": {
+    "grounded": [
+      "pick up the container at <y, x> that hides the [red/blue/green] cube",
+      "put down the container"
+    ],
+    "simple": [
+      "pick up the container that hides the [red/blue/green] cube",
+      "put down the container"
+    ]
+  },
+  "VideoUnmaskSwap": {
+    "grounded": [
+      "pick up the container at <y, x> that hides the [red/blue/green] cube",
+      "put down the container"
+    ],
+    "simple": [
+      "pick up the container that hides the [red/blue/green] cube",
+      "put down the container"
+    ]
+  }
+}

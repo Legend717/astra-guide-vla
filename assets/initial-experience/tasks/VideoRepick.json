@@ -1,0 +1,97 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-1999f31160d08ad0a06dd877",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the correct cube for the first time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoRepick\", \"subgoal\": \"pick up the correct cube for the first time\", \"segments\": 100, \"episodes\": 100, \"min\": 101, \"p10\": 103.0, \"p25\": 105.0, \"median\": 109.0, \"p90\": 118.10000000000001, \"max\": 191, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the correct cube for the first time",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "VideoRepick"
+      }
+    },
+    {
+      "id": "duration-22b8412bee8c1d972bc464b8",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the correct cube for the second time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoRepick\", \"subgoal\": \"pick up the correct cube for the second time\", \"segments\": 72, \"episodes\": 72, \"min\": 66, \"p10\": 69.0, \"p25\": 70.0, \"median\": 70.5, \"p90\": 79.9, \"max\": 129, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the correct cube for the second time",
+        "recommended_steps": 70
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "VideoRepick"
+      }
+    },
+    {
+      "id": "duration-4bb7f0dae8b6d7ec2a5f4a87",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the correct cube for the third time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoRepick\", \"subgoal\": \"pick up the correct cube for the third time\", \"segments\": 35, \"episodes\": 35, \"min\": 68, \"p10\": 69.0, \"p25\": 69.0, \"median\": 71.0, \"p90\": 79.80000000000001, \"max\": 216, \"recommended_steps\": 60, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the correct cube for the third time",
+        "recommended_steps": 60
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "VideoRepick"
+      }
+    },
+    {
+      "id": "duration-f7bf9652278f9b16e85eddaf",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the button to finish",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoRepick\", \"subgoal\": \"press the button to finish\", \"segments\": 100, \"episodes\": 100, \"min\": 79, \"p10\": 92.9, \"p25\": 97.0, \"median\": 103.0, \"p90\": 114.0, \"max\": 128, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the button to finish",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "VideoRepick"
+      }
+    },
+    {
+      "id": "duration-44d839879238098345869dfd",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put it down",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoRepick\", \"subgoal\": \"put it down\", \"segments\": 207, \"episodes\": 100, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 53.0, \"p90\": 61.0, \"max\": 94, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put it down",
+        "recommended_steps": 50
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "VideoRepick"
+      }
+    }
+  ],
+  "commits": []
+}

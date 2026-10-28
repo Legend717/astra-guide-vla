@@ -1,0 +1,43 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-f85fc211d9e45fe6a620f8f3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoPlaceButton\", \"subgoal\": \"pick up the cube\", \"segments\": 100, \"episodes\": 100, \"min\": 112, \"p10\": 113.0, \"p25\": 113.0, \"median\": 114.0, \"p90\": 120.0, \"max\": 208, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the cube",
+        "recommended_steps": 110
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "VideoPlaceButton"
+      }
+    },
+    {
+      "id": "duration-9c2b1f7f207cba50aa8b6ebe",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the cube onto the correct target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoPlaceButton\", \"subgoal\": \"place the cube onto the correct target\", \"segments\": 100, \"episodes\": 100, \"min\": 75, \"p10\": 79.0, \"p25\": 81.0, \"median\": 85.0, \"p90\": 96.10000000000001, \"max\": 103, \"recommended_steps\": 80, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the cube onto the correct target",
+        "recommended_steps": 80
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "VideoPlaceButton"
+      }
+    }
+  ],
+  "commits": []
+}

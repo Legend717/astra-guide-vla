@@ -1,0 +1,79 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-36293659db4675580d5243e0",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest left target by circling around the stick clockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest left target by circling around the stick clockwise\", \"segments\": 81, \"episodes\": 62, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 150, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest left target by circling around the stick clockwise",
+        "recommended_steps": 50
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "RouteStick"
+      }
+    },
+    {
+      "id": "duration-d78d5b833c433cb14f3af761",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest left target by circling around the stick counterclockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest left target by circling around the stick counterclockwise\", \"segments\": 65, \"episodes\": 55, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 200, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest left target by circling around the stick counterclockwise",
+        "recommended_steps": 50
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "RouteStick"
+      }
+    },
+    {
+      "id": "duration-97d68744767f63eb6ccd9661",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest right target by circling around the stick clockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest right target by circling around the stick clockwise\", \"segments\": 71, \"episodes\": 61, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 200, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest right target by circling around the stick clockwise",
+        "recommended_steps": 50
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "RouteStick"
+      }
+    },
+    {
+      "id": "duration-eb3fbedce5c7a723904ac5d2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the nearest right target by circling around the stick counterclockwise",
+      "claim": "Demonstration control-duration prior: {\"task\": \"RouteStick\", \"subgoal\": \"move to the nearest right target by circling around the stick counterclockwise\", \"segments\": 72, \"episodes\": 61, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 50.0, \"p90\": 100.0, \"max\": 150, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the nearest right target by circling around the stick counterclockwise",
+        "recommended_steps": 50
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "RouteStick"
+      }
+    }
+  ],
+  "commits": []
+}

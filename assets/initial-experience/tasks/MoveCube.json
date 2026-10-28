@@ -1,0 +1,97 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-b6acbd24967712335d0fac56",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "close the gripper and push the cube to the target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"MoveCube\", \"subgoal\": \"close the gripper and push the cube to the target\", \"segments\": 34, \"episodes\": 34, \"min\": 85, \"p10\": 92.9, \"p25\": 98.5, \"median\": 104.0, \"p90\": 112.7, \"max\": 119, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "close the gripper and push the cube to the target",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "MoveCube"
+      }
+    },
+    {
+      "id": "duration-f24e835d815430adf2d37308",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "hook the cube to the target with the peg",
+      "claim": "Demonstration control-duration prior: {\"task\": \"MoveCube\", \"subgoal\": \"hook the cube to the target with the peg\", \"segments\": 35, \"episodes\": 35, \"min\": 67, \"p10\": 74.8, \"p25\": 87.0, \"median\": 105.0, \"p90\": 137.0, \"max\": 157, \"recommended_steps\": 80, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "hook the cube to the target with the peg",
+        "recommended_steps": 80
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "MoveCube"
+      }
+    },
+    {
+      "id": "duration-2594266125761f46bbaf20f2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"MoveCube\", \"subgoal\": \"pick up the cube\", \"segments\": 31, \"episodes\": 31, \"min\": 102, \"p10\": 103.0, \"p25\": 106.0, \"median\": 110.0, \"p90\": 116.0, \"max\": 120, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the cube",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "MoveCube"
+      }
+    },
+    {
+      "id": "duration-c9ca789b3043987c363049e9",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the peg",
+      "claim": "Demonstration control-duration prior: {\"task\": \"MoveCube\", \"subgoal\": \"pick up the peg\", \"segments\": 35, \"episodes\": 35, \"min\": 111, \"p10\": 112.4, \"p25\": 117.0, \"median\": 119.0, \"p90\": 127.6, \"max\": 131, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the peg",
+        "recommended_steps": 110
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "MoveCube"
+      }
+    },
+    {
+      "id": "duration-6ca6b88cecaa87c011589235",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the cube onto the target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"MoveCube\", \"subgoal\": \"place the cube onto the target\", \"segments\": 31, \"episodes\": 31, \"min\": 67, \"p10\": 74.0, \"p25\": 76.0, \"median\": 80.0, \"p90\": 92.0, \"max\": 95, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the cube onto the target",
+        "recommended_steps": 70
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "MoveCube"
+      }
+    }
+  ],
+  "commits": []
+}

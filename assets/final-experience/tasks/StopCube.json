@@ -1,0 +1,112 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-215d986433fecb1c52d63804",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the button to prepare",
+      "claim": "Demonstration control-duration prior: {\"task\": \"StopCube\", \"subgoal\": \"move to the top of the button to prepare\", \"segments\": 100, \"episodes\": 100, \"min\": 52, \"p10\": 53.0, \"p25\": 54.0, \"median\": 56.0, \"p90\": 61.0, \"max\": 65, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the button to prepare",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "id": "duration-b8d06d5ded07836db005b7fd",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the button to stop the cube on the target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"StopCube\", \"subgoal\": \"press the button to stop the cube on the target\", \"segments\": 100, \"episodes\": 100, \"min\": 57, \"p10\": 61.0, \"p25\": 62.0, \"median\": 64.0, \"p90\": 70.10000000000001, \"max\": 76, \"recommended_steps\": 60, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the button to stop the cube on the target",
+        "recommended_steps": 60
+      }
+    },
+    {
+      "id": "duration-cf6baa91d9b0c18d7f506286",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "remain static",
+      "claim": "Demonstration control-duration prior: {\"task\": \"StopCube\", \"subgoal\": \"remain static\", \"segments\": 89, \"episodes\": 89, \"min\": 36, \"p10\": 96.0, \"p25\": 120.0, \"median\": 192.0, \"p90\": 450.0, \"max\": 462, \"recommended_steps\": 120, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "remain static",
+        "recommended_steps": 120
+      }
+    },
+    {
+      "claim": "A StopCube episode completed with long budgets for preparation/waiting and close review only during timed pressing. After the press-phase switch, a16-control prefix produced substantial actual descent, an8-control prefix approached the button, and the final4-control request ended successfully after3. The full60-control demonstration press prior was not needed as an open-loop authorization.",
+      "conditions": "HistoryPi0/PI05 checkpoint79999. Before timed pressing, reconstruct independent visits and current motion from this episode's chronological RGB; compare measured descent with the approaching target window. Favor close review of the timed contact phase instead of applying the full-phase duration prior as remaining time. This single success does not prove the chosen prefixes optimal or larger budgets unsafe, and supplies no reusable visit times, contact height or lead time.",
+      "confidence": "medium",
+      "kind": "observation",
+      "frames": [
+        250,
+        266,
+        274,
+        277
+      ],
+      "phase": "timed press",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "press the button to stop the cube on the target",
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "stopcube-001"
+    },
+    {
+      "claim": "In a StopCube run, a16-control timed-descent release followed by an8-control authorization terminated with official failure after only6 controls of the latter, while continuous RGB still showed the returning cube separated from the target. A previously successful16/8 close-review pattern therefore is not a reusable timing contract. The candidate's deeper low point and later retraction did not establish when stopping would occur.",
+      "conditions": "HistoryPi0/PI05 checkpoint79999, after visually reconstructing independent visits. When already descending near the button while the cube remains separated, choose the next review or static phase from current RGB, measured progress and fresh FK rather than assuming contact requires reaching the lowest predicted point. This run does not validate a shorter prefix, a fixed waiting delay, or a contact-height threshold; exact activation onset was obscured.",
+      "confidence": "high",
+      "kind": "observation",
+      "frames": [
+        180,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202
+      ],
+      "phase": "near-button timed contact",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "press the button to stop the cube on the target",
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "id": "stopcube-002"
+    },
+    {
+      "applicability": "common",
+      "claim": "A preparation instruction was incorrectly grounded on the concentric cube-target marker instead of the separate raised cap-on-base button. The robot approached the wrong region; chronological RGB showing the cube crossing the marker resolved its role, and re-grounding the visible button redirected preparation. Correct camera selection alone does not prevent this object-role error.",
+      "conditions": "StopCube scenes containing both a flat concentric target marker and a separate raised button. Before preparation, distinguish their roles in the current original front view; if ambiguous, use chronological cube motion to resolve the target. Do not assume the most salient colored marker is the button. This observation does not establish press-template coordinate semantics, a universally fixed color/layout, a safe budget, or reusable coordinates/timing.",
+      "confidence": "medium",
+      "kind": "observation",
+      "phase": "object-role grounding before preparation",
+      "frames": [
+        0,
+        26,
+        30,
+        34,
+        50,
+        58,
+        74
+      ],
+      "status": "active",
+      "id": "stopcube-003"
+    }
+  ],
+  "commits": []
+}

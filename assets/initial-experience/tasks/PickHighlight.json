@@ -1,0 +1,259 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-dfbc484a9b7dee89fec2857d",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the first highlighted cube, which is blue",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the first highlighted cube, which is blue\", \"segments\": 19, \"episodes\": 19, \"min\": 95, \"p10\": 98.8, \"p25\": 100.0, \"median\": 106.0, \"p90\": 120.19999999999999, \"max\": 196, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the first highlighted cube, which is blue",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-9f358474e703f988e4e12a13",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the first highlighted cube, which is green",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the first highlighted cube, which is green\", \"segments\": 16, \"episodes\": 16, \"min\": 92, \"p10\": 94.0, \"p25\": 97.5, \"median\": 106.0, \"p90\": 119.5, \"max\": 130, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the first highlighted cube, which is green",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-fc010894f4e989dba9a72b51",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the first highlighted cube, which is red",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the first highlighted cube, which is red\", \"segments\": 15, \"episodes\": 15, \"min\": 90, \"p10\": 94.6, \"p25\": 97.5, \"median\": 102.0, \"p90\": 112.6, \"max\": 124, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the first highlighted cube, which is red",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-4a28861e6d09cfd771f483fa",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the highlighted cube, which is blue",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the highlighted cube, which is blue\", \"segments\": 16, \"episodes\": 16, \"min\": 90, \"p10\": 94.5, \"p25\": 99.0, \"median\": 107.0, \"p90\": 121.0, \"max\": 136, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the highlighted cube, which is blue",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-5611714520f85be9031c016e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the highlighted cube, which is green",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the highlighted cube, which is green\", \"segments\": 20, \"episodes\": 20, \"min\": 87, \"p10\": 91.0, \"p25\": 99.75, \"median\": 103.5, \"p90\": 118.9, \"max\": 172, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the highlighted cube, which is green",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-df5528192d301df8fa607019",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the highlighted cube, which is red",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the highlighted cube, which is red\", \"segments\": 14, \"episodes\": 14, \"min\": 94, \"p10\": 97.9, \"p25\": 100.5, \"median\": 107.5, \"p90\": 179.40000000000003, \"max\": 208, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the highlighted cube, which is red",
+        "recommended_steps": 100
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-2a59a4e26e32e82a2c5deed3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the second highlighted cube, which is blue",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the second highlighted cube, which is blue\", \"segments\": 18, \"episodes\": 18, \"min\": 84, \"p10\": 86.7, \"p25\": 92.75, \"median\": 97.0, \"p90\": 107.6, \"max\": 120, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the second highlighted cube, which is blue",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-d72ee4581212195eb6a90f19",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the second highlighted cube, which is green",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the second highlighted cube, which is green\", \"segments\": 14, \"episodes\": 14, \"min\": 82, \"p10\": 86.5, \"p25\": 92.75, \"median\": 104.5, \"p90\": 124.4, \"max\": 176, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the second highlighted cube, which is green",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-471b940474698979d7abe2fc",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the second highlighted cube, which is red",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the second highlighted cube, which is red\", \"segments\": 18, \"episodes\": 18, \"min\": 81, \"p10\": 88.0, \"p25\": 95.75, \"median\": 103.0, \"p90\": 114.2, \"max\": 131, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the second highlighted cube, which is red",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-a3bde480c339f4ce759db3a2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the third highlighted cube, which is blue",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the third highlighted cube, which is blue\", \"segments\": 8, \"episodes\": 8, \"min\": 92, \"p10\": 94.8, \"p25\": 96.75, \"median\": 100.0, \"p90\": 107.6, \"max\": 109, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the third highlighted cube, which is blue",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-dc5af62e10275f0bc3f28f3e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the third highlighted cube, which is green",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the third highlighted cube, which is green\", \"segments\": 9, \"episodes\": 9, \"min\": 86, \"p10\": 90.0, \"p25\": 95.0, \"median\": 102.0, \"p90\": 124.8, \"max\": 128, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the third highlighted cube, which is green",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-e5e9278932325fb55ec0c2ac",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the third highlighted cube, which is red",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"pick up the third highlighted cube, which is red\", \"segments\": 8, \"episodes\": 8, \"min\": 92, \"p10\": 92.0, \"p25\": 95.75, \"median\": 105.5, \"p90\": 121.39999999999999, \"max\": 134, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the third highlighted cube, which is red",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-a6087ae000ee21c99c0cbe59",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the cube onto the table",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"place the cube onto the table\", \"segments\": 75, \"episodes\": 50, \"min\": 50, \"p10\": 50.0, \"p25\": 50.0, \"median\": 55.0, \"p90\": 68.20000000000002, \"max\": 75, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the cube onto the table",
+        "recommended_steps": 50
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    },
+    {
+      "id": "duration-6a82dc7be25b85ce5fc3c9d5",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickHighlight\", \"subgoal\": \"press the button\", \"segments\": 100, \"episodes\": 100, \"min\": 107, \"p10\": 110.0, \"p25\": 112.0, \"median\": 116.0, \"p90\": 123.0, \"max\": 128, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the button",
+        "recommended_steps": 110
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "PickHighlight"
+      }
+    }
+  ],
+  "commits": []
+}

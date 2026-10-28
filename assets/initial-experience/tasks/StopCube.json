@@ -1,0 +1,61 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-215d986433fecb1c52d63804",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "move to the top of the button to prepare",
+      "claim": "Demonstration control-duration prior: {\"task\": \"StopCube\", \"subgoal\": \"move to the top of the button to prepare\", \"segments\": 100, \"episodes\": 100, \"min\": 52, \"p10\": 53.0, \"p25\": 54.0, \"median\": 56.0, \"p90\": 61.0, \"max\": 65, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "move to the top of the button to prepare",
+        "recommended_steps": 50
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "StopCube"
+      }
+    },
+    {
+      "id": "duration-b8d06d5ded07836db005b7fd",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the button to stop the cube on the target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"StopCube\", \"subgoal\": \"press the button to stop the cube on the target\", \"segments\": 100, \"episodes\": 100, \"min\": 57, \"p10\": 61.0, \"p25\": 62.0, \"median\": 64.0, \"p90\": 70.10000000000001, \"max\": 76, \"recommended_steps\": 60, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the button to stop the cube on the target",
+        "recommended_steps": 60
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "StopCube"
+      }
+    },
+    {
+      "id": "duration-cf6baa91d9b0c18d7f506286",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "remain static",
+      "claim": "Demonstration control-duration prior: {\"task\": \"StopCube\", \"subgoal\": \"remain static\", \"segments\": 89, \"episodes\": 89, \"min\": 36, \"p10\": 96.0, \"p25\": 120.0, \"median\": 192.0, \"p90\": 450.0, \"max\": 462, \"recommended_steps\": 120, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "remain static",
+        "recommended_steps": 120
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "StopCube"
+      }
+    }
+  ],
+  "commits": []
+}

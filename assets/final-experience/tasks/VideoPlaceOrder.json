@@ -1,0 +1,98 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-71cda2a8269dbb0f5c13d845",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoPlaceOrder\", \"subgoal\": \"pick up the cube\", \"segments\": 100, \"episodes\": 100, \"min\": 112, \"p10\": 113.0, \"p25\": 113.0, \"median\": 114.0, \"p90\": 117.10000000000001, \"max\": 210, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the cube",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-164cb6052f380378e9599744",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the cube onto the correct target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"VideoPlaceOrder\", \"subgoal\": \"place the cube onto the correct target\", \"segments\": 100, \"episodes\": 100, \"min\": 77, \"p10\": 80.0, \"p25\": 83.0, \"median\": 87.0, \"p90\": 99.0, \"max\": 104, \"recommended_steps\": 80, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the cube onto the correct target",
+        "recommended_steps": 80
+      }
+    },
+    {
+      "claim": "When the cube is crowded by another cube near the fingers, review alignment before commanded closure and verify a lift before changing to placement. A measured-aperture guard can wake only after a contact-driven missed grasp has developed; use before-command closure review and a short release for the contact transition when alignment remains uncertain.",
+      "conditions": "VideoPlaceOrder pickup with adjacent objects and uncertain finger clearance. Initial110-control authorization returned after96 controls; dense review showed first clear tilt/displacement at offset90, measured gripper event at91, and empty-lift confirmation later. Earlier unsampled precursor timing is unknown. This supports closer contact review, not a universal short approach budget or a proven safe16-control bound. Compared with active task entries, duration-71cda2a8269dbb0f5c13d845 is only a full-phase prior and has no contact-risk advice.",
+      "confidence": "medium",
+      "kind": "observation",
+      "frames": [
+        794,
+        876,
+        883,
+        884,
+        885,
+        890,
+        906,
+        966,
+        982,
+        1012
+      ],
+      "phase": "crowded_pickup_contact",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "pick up the cube",
+        "max_trust_steps": 16,
+        "close_review": true,
+        "guards": [
+          {
+            "kind": "gripper_change",
+            "when": "before_command"
+          }
+        ],
+        "first_risk_frame": 884,
+        "risk_offset_steps": 90,
+        "evidence_count": 1
+      },
+      "id": "videoplaceorder-001"
+    },
+    {
+      "claim": "If final cube-to-target alignment is uncertain, arrange review before the placement gripper opens; an after-measured release guard may be preempted by official termination during opening. Keep clear transport separate from the release decision, and use a short reviewed release for that transition.",
+      "conditions": "VideoPlaceOrder placement after a recovered or visibly eccentric grasp, or with the hand obscuring final centering. An80-control placement authorization ended in official failure after69 controls during opening, before an after-measured guard returned. Sparse-to-dense review showed plausible descent but did not establish the failure cause or an exact earlier visual risk onset; earlier review is an opportunity to check alignment, not proven prevention. No seed-specific target or numeric safe interval is implied. Existing duration-164cb6052f380378e9599744 remains useful for full-phase estimation but does not cover terminal release timing.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        1012,
+        1041,
+        1062,
+        1077,
+        1080,
+        1081
+      ],
+      "phase": "uncertain_placement_release",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "place the cube onto the correct target",
+        "close_review": true,
+        "guards": [
+          {
+            "kind": "gripper_change",
+            "when": "before_command"
+          }
+        ],
+        "evidence_count": 1
+      },
+      "id": "videoplaceorder-002"
+    }
+  ],
+  "commits": []
+}

@@ -1,0 +1,321 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-c94bfc4353cd7cce6ba55b14",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the blue cube for the fifth time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the blue cube for the fifth time\", \"segments\": 4, \"episodes\": 4, \"min\": 69, \"p10\": 69.3, \"p25\": 69.75, \"median\": 71.5, \"p90\": 90.5, \"max\": 98, \"recommended_steps\": 60, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the blue cube for the fifth time",
+        "recommended_steps": 60
+      }
+    },
+    {
+      "id": "duration-349ada43cf339bf1bcec61df",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the blue cube for the first time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the blue cube for the first time\", \"segments\": 40, \"episodes\": 40, \"min\": 101, \"p10\": 103.0, \"p25\": 108.75, \"median\": 114.0, \"p90\": 132.2, \"max\": 139, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the blue cube for the first time",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-2cf88e1c4c349b8e5edf4c59",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the blue cube for the fourth time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the blue cube for the fourth time\", \"segments\": 9, \"episodes\": 9, \"min\": 70, \"p10\": 70.8, \"p25\": 71.0, \"median\": 74.0, \"p90\": 87.4, \"max\": 93, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the blue cube for the fourth time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-381aa0e3653c8cba601fbf06",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the blue cube for the second time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the blue cube for the second time\", \"segments\": 31, \"episodes\": 31, \"min\": 69, \"p10\": 70.0, \"p25\": 70.0, \"median\": 72.0, \"p90\": 80.0, \"max\": 128, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the blue cube for the second time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-dc33bc0f2a9e53206f1351c4",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the blue cube for the third time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the blue cube for the third time\", \"segments\": 23, \"episodes\": 23, \"min\": 69, \"p10\": 70.0, \"p25\": 70.0, \"median\": 74.0, \"p90\": 84.80000000000001, \"max\": 173, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the blue cube for the third time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-c10c3e229edee7e911710d5c",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the green cube for the fifth time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the green cube for the fifth time\", \"segments\": 5, \"episodes\": 5, \"min\": 69, \"p10\": 70.6, \"p25\": 73.0, \"median\": 76.0, \"p90\": 80.6, \"max\": 81, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the green cube for the fifth time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-7225efb80e22925122e3e777",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the green cube for the first time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the green cube for the first time\", \"segments\": 28, \"episodes\": 28, \"min\": 101, \"p10\": 107.0, \"p25\": 110.0, \"median\": 113.0, \"p90\": 128.8, \"max\": 148, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the green cube for the first time",
+        "recommended_steps": 110
+      }
+    },
+    {
+      "id": "duration-333dd8dafc7e00f057762c99",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the green cube for the fourth time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the green cube for the fourth time\", \"segments\": 8, \"episodes\": 8, \"min\": 69, \"p10\": 69.0, \"p25\": 72.0, \"median\": 76.0, \"p90\": 83.39999999999999, \"max\": 96, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the green cube for the fourth time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-ced250b50eda9b5b8253717b",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the green cube for the second time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the green cube for the second time\", \"segments\": 20, \"episodes\": 20, \"min\": 70, \"p10\": 70.0, \"p25\": 70.0, \"median\": 76.0, \"p90\": 83.1, \"max\": 160, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the green cube for the second time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-f885672e06c4808baba74eb8",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the green cube for the third time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the green cube for the third time\", \"segments\": 16, \"episodes\": 16, \"min\": 69, \"p10\": 70.0, \"p25\": 71.0, \"median\": 75.0, \"p90\": 82.5, \"max\": 86, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the green cube for the third time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-8da4a8205eeb44fde1fd4a75",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the red cube for the fifth time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the red cube for the fifth time\", \"segments\": 4, \"episodes\": 4, \"min\": 73, \"p10\": 73.3, \"p25\": 73.75, \"median\": 74.0, \"p90\": 74.7, \"max\": 75, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the red cube for the fifth time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-25c424456562f3b466572520",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the red cube for the first time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the red cube for the first time\", \"segments\": 32, \"episodes\": 32, \"min\": 102, \"p10\": 103.1, \"p25\": 106.0, \"median\": 116.0, \"p90\": 129.8, \"max\": 169, \"recommended_steps\": 100, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the red cube for the first time",
+        "recommended_steps": 100
+      }
+    },
+    {
+      "id": "duration-8ba91634962ece6e882beaf0",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the red cube for the fourth time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the red cube for the fourth time\", \"segments\": 8, \"episodes\": 8, \"min\": 69, \"p10\": 69.7, \"p25\": 70.75, \"median\": 74.0, \"p90\": 75.3, \"max\": 76, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the red cube for the fourth time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-d487011430fe6d75c9d837c3",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the red cube for the second time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the red cube for the second time\", \"segments\": 26, \"episodes\": 26, \"min\": 69, \"p10\": 71.0, \"p25\": 71.25, \"median\": 73.5, \"p90\": 83.0, \"max\": 186, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the red cube for the second time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-2cdb8d3e0788414e77687532",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the red cube for the third time",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"pick up the red cube for the third time\", \"segments\": 13, \"episodes\": 13, \"min\": 69, \"p10\": 69.2, \"p25\": 70.0, \"median\": 73.0, \"p90\": 75.8, \"max\": 84, \"recommended_steps\": 70, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the red cube for the third time",
+        "recommended_steps": 70
+      }
+    },
+    {
+      "id": "duration-517c6f078495bc41480bfb0e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the blue cube onto the target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"place the blue cube onto the target\", \"segments\": 107, \"episodes\": 40, \"min\": 52, \"p10\": 54.0, \"p25\": 59.5, \"median\": 67.0, \"p90\": 93.4, \"max\": 113, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the blue cube onto the target",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "id": "duration-7aaa7284597227dddd7fd693",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the green cube onto the target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"place the green cube onto the target\", \"segments\": 77, \"episodes\": 28, \"min\": 52, \"p10\": 55.0, \"p25\": 59.0, \"median\": 68.0, \"p90\": 92.4, \"max\": 106, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the green cube onto the target",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "id": "duration-81e2ff30b334b1b1fdb9f2b2",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "place the red cube onto the target",
+      "claim": "Demonstration control-duration prior: {\"task\": \"PickXtimes\", \"subgoal\": \"place the red cube onto the target\", \"segments\": 83, \"episodes\": 32, \"min\": 52, \"p10\": 53.2, \"p25\": 55.0, \"median\": 68.0, \"p90\": 89.8, \"max\": 106, \"recommended_steps\": 50, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "place the red cube onto the target",
+        "recommended_steps": 50
+      }
+    },
+    {
+      "claim": "For the static stop-button phase, retain 90 controls as a low-confidence full-phase duration estimate, but recommend an initial 60-control visual progress review with an explicit stationary guard. A 90-control authorization WITH that guard reached its budget without a guard wake while a shallow noncontact down/up motion ended in above-button hovering. Once above-button hover, unproductive bobbing, or a recovery is visible, review a fresh VLA prefix within 16 controls rather than renewing a full-phase budget. Stationary monitoring remains useful for sustained lack of motion but cannot replace visual contact-progress review when movement interrupts its 32-control window. Neither this shorter interval nor one eventual success proves safety or intervention necessity.",
+      "conditions": "PickXtimes static stop-button phase with motion expected and completion absent, especially approach starting after nearby cube placement. Prior entry documented hover during an unguarded 90-control authorization; this episode adds guard non-wake evidence. Here authorization began at 194; dense 250\u2013284 images show shallow noncontact bobbing and clearly near-static final hover in 268\u2013284, offset 74 from authorization start. Exact earlier stall onset and continuous threshold crossing are unestablished. Initial 60 controls is an earlier inspection recommendation, not an onset or safety bound. Keep ordinary pick/place budgets separate. Do not transfer timings, poses, contact heights, or this stationary guard to intentional waiting or moving-target button timing.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        194,
+        245,
+        250,
+        258,
+        267,
+        268,
+        271,
+        284,
+        308,
+        314
+      ],
+      "phase": "press the button to stop",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "press the button to stop",
+        "recommended_steps": 60,
+        "max_trust_steps": 60,
+        "guards": [
+          {
+            "kind": "stationary"
+          }
+        ],
+        "first_risk_frame": 268,
+        "risk_offset_steps": 74,
+        "evidence_count": 2
+      },
+      "status": "active",
+      "id": "pickxtimes-001"
+    },
+    {
+      "claim": "During near-target placement descent/release, review a fresh VLA prefix within16 controls when separation is unverified, rather than carrying an ordinary full-phase authorization through the contact transition. An80-control placement authorization allowed a closed-gripper descent followed by re-lift of the cube before the next visual review. Keep ordinary transport governed by its duration prior; this is conditional contact-phase advice, not a global shortening. A gripper-change guard can report opening but cannot observe failure to open, and stationary monitoring is not a reliable substitute for visual review of a moving re-lift.",
+      "conditions": "PickXtimes blue-cube placement with cube visibly retained during a near-target descent or after expected release. Authorization738\u2013818 was80 controls without guards. Sparse history followed by dense790\u2013818 shows descent then reversal around802\u2013805 (approximately64\u201367 controls after authorization); by805 the cube clearly rises with the closed hand and remains carried at818. Exact one-frame onset and events in sparsely reviewed earlier intervals are uncertain. Recovery818\u2013878 subsequently produced separation and target stability. The16-control recommendation is an earlier conditional review interval, not a demonstrated safe bound or universal placement duration. Do not transfer coordinates, heights, repetition count, or this episode's reversal time.",
+      "confidence": "medium",
+      "kind": "hypothesis",
+      "frames": [
+        738,
+        790,
+        802,
+        803,
+        805,
+        818,
+        854,
+        862,
+        878
+      ],
+      "phase": "placement contact and release verification",
+      "applicability": "step-budget",
+      "scheduling": {
+        "subgoal": "place the blue cube onto the target",
+        "max_trust_steps": 16,
+        "close_review": true,
+        "evidence_count": 1
+      },
+      "status": "active",
+      "id": "pickxtimes-002"
+    }
+  ],
+  "commits": []
+}

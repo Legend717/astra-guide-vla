@@ -1,0 +1,115 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "id": "duration-57d62a7c3c69712da15b5af8",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the blue cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"pick up the container that hides the blue cube\", \"segments\": 44, \"episodes\": 44, \"min\": 84, \"p10\": 87.0, \"p25\": 95.0, \"median\": 103.0, \"p90\": 113.4, \"max\": 182, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the blue cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "ButtonUnmaskSwap"
+      }
+    },
+    {
+      "id": "duration-6e9e30946a6b20bf0872d22e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the green cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"pick up the container that hides the green cube\", \"segments\": 50, \"episodes\": 50, \"min\": 82, \"p10\": 95.3, \"p25\": 98.0, \"median\": 103.0, \"p90\": 119.2, \"max\": 198, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the green cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "ButtonUnmaskSwap"
+      }
+    },
+    {
+      "id": "duration-bb81dcddb179ded19121f12e",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "pick up the container that hides the red cube",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"pick up the container that hides the red cube\", \"segments\": 62, \"episodes\": 62, \"min\": 82, \"p10\": 91.2, \"p25\": 97.25, \"median\": 105.0, \"p90\": 117.9, \"max\": 178, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "pick up the container that hides the red cube",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "ButtonUnmaskSwap"
+      }
+    },
+    {
+      "id": "duration-4aacd94d6ec606e64b2bb3d0",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the first button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"press the first button\", \"segments\": 100, \"episodes\": 100, \"min\": 108, \"p10\": 109.0, \"p25\": 110.0, \"median\": 114.0, \"p90\": 119.0, \"max\": 122, \"recommended_steps\": 110, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the first button",
+        "recommended_steps": 110
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "ButtonUnmaskSwap"
+      }
+    },
+    {
+      "id": "duration-64325482c255ff07e9a92370",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "press the second button",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"press the second button\", \"segments\": 100, \"episodes\": 100, \"min\": 86, \"p10\": 90.0, \"p25\": 92.0, \"median\": 94.0, \"p90\": 99.0, \"max\": 103, \"recommended_steps\": 90, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "press the second button",
+        "recommended_steps": 90
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "ButtonUnmaskSwap"
+      }
+    },
+    {
+      "id": "duration-cf0aa6bc6720b5c00a0d767d",
+      "applicability": "step-budget",
+      "kind": "hypothesis",
+      "confidence": "low",
+      "status": "active",
+      "phase": "put down the container",
+      "claim": "Demonstration control-duration prior: {\"task\": \"ButtonUnmaskSwap\", \"subgoal\": \"put down the container\", \"segments\": 56, \"episodes\": 56, \"min\": 41, \"p10\": 41.0, \"p25\": 41.0, \"median\": 48.0, \"p90\": 51.0, \"max\": 52, \"recommended_steps\": 40, \"close_review\": false}",
+      "conditions": "Approximate sampled simple_subgoal durations in actual controls; duplicates removed, demo excluded. Short segments omitted by the training sampler may be absorbed into adjacent labels; terminal padding can extend the final segment. Repeated identical labels are merged. Not a VLA safety limit or success criterion.",
+      "scheduling": {
+        "subgoal": "put down the container",
+        "recommended_steps": 40
+      },
+      "provenance": {
+        "kind": "demonstration_prior",
+        "task": "ButtonUnmaskSwap"
+      }
+    }
+  ],
+  "commits": []
+}

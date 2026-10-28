@@ -1,0 +1,87 @@
+{
+  "schema_version": 3,
+  "version": 1,
+  "entries": [
+    {
+      "claim": "An object separating from the open gripper, landing, and remaining in place while the hand continues upward supports a visual placement judgment. An opening command alone is insufficient.",
+      "conditions": "When grasp and release are visible, check continuous separation and stability. Visual placement does not establish overall task success. Assess each episode independently; do not reuse answers, coordinates, or counts from past seeds.",
+      "confidence": "high",
+      "frames": [
+        341,
+        342,
+        343,
+        345,
+        352,
+        360,
+        368
+      ],
+      "kind": "observation",
+      "id": "general-001",
+      "applicability": "common"
+    },
+    {
+      "claim": "Official success termination may occur before the target visibly turns red or before subsequent actions mentioned in the task description. Stop immediately after explicit success termination.",
+      "conditions": "Applies only when this episode's filtered feedback explicitly reports success=true and terminated=true. Do not rewrite other episodes' requirements or infer hidden success rules. Assess each episode independently; do not reuse answers, coordinates, or counts from past seeds.",
+      "confidence": "high",
+      "frames": [
+        309,
+        310
+      ],
+      "kind": "observation",
+      "id": "general-002",
+      "applicability": "common"
+    },
+    {
+      "claim": "When only final success is available and intermediate activation feedback is not visible, it does not identify which button press took effect. A commanded downward target can differ from the measured TCP position.",
+      "conditions": "Record action requests, measured state, unconfirmed phases, and final outcomes separately. Do not treat eventual success as causal evidence for an intervention. Assess each episode independently; do not reuse answers, coordinates, or counts from past seeds.",
+      "confidence": "high",
+      "frames": [
+        128,
+        138,
+        156,
+        176,
+        208,
+        334
+      ],
+      "kind": "observation",
+      "id": "general-003",
+      "applicability": "common"
+    },
+    {
+      "claim": "A button location in a wrist-view panel was once mistaken for a front-view coordinate; opening the original images from both cameras revealed and corrected the mistake.",
+      "conditions": "Before grounding a point, verify the camera and original image dimensions. Use the original front image for grounding coordinates, never a wrist-view point. Assess each episode independently; do not reuse answers, coordinates, or counts from past seeds.",
+      "confidence": "high",
+      "frames": [
+        0,
+        16
+      ],
+      "kind": "observation",
+      "id": "general-004",
+      "applicability": "common"
+    },
+    {
+      "kind": "hypothesis",
+      "claim": "Cross-task direction convention: interpret left/right in task descriptions and corresponding subgoals relative to the initial wrist view, or the robot's initial facing direction. Left/right in this reference are opposite to those in the usual main view. Apply this convention when selecting RouteStick subgoal templates containing left/right; do not equate main-view screen directions with task-language directions.",
+      "conditions": "This default convention was explicitly supplied by the user and has not been empirically established for every task. Later wrist rotation does not redefine task left/right. Image point_yx coordinates still use the referenced camera image's own pixel axes. Establish world-direction mappings from the current allowed demonstration, images, and robot state; do not blindly flip a fixed world axis. If the current demonstration conflicts with the convention, record the conflict and recheck. This is user-provided guidance, not a conclusion established by the earlier four-episode test.",
+      "confidence": "medium",
+      "frames": [],
+      "phase": "task_language_grounding",
+      "applicability": "common",
+      "id": "general-005",
+      "provenance": {
+        "kind": "user_provided_direction_convention"
+      }
+    },
+    {
+      "id": "general-006",
+      "applicability": "common",
+      "kind": "observation",
+      "confidence": "medium",
+      "status": "active",
+      "claim": "Candidate FK, downward commands, and withdrawal commands do not prove button activation. If measured descent is still progressing reasonably, one unfinished attempt does not establish a stall. Choose continued execution or bounded correction from current images, measured motion, and feedback. Truncating a contact segment with a short prefix is only a hypothesis and does not justify changing the prefix globally.",
+      "conditions": "For contact-based button tasks, assess continuous RGB and actual progress in the current episode. Past successes followed both continued VLA execution and bounded correction; neither proves intervention necessity, truncation causality, an optimal prefix, or a universal contact threshold. Judge each episode independently without reusing old coordinates, counts, or seed answers.",
+      "frames": []
+    }
+  ],
+  "commits": []
+}
